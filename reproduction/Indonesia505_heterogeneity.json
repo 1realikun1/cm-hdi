@@ -1,0 +1,7 @@
+{
+  "gain62_minus_gain443": -0.006272337367794179,
+  "ci_low": -0.01214534479530267,
+  "ci_high": 0.0028489441481174297,
+  "valid_bootstrap_replicates": 20000,
+  "interpretation": "Descriptive, retrospective; same province draws for both groups; no new multiplicity-adjusted significance claim."
+}

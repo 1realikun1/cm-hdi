@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "seed": 20260930,
+  "penalty_grid": [
+    0.0,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "methods": {
+    "P3_weighted_geometric": "H^wH E^wE I^wI; w>=0, sum(w)=1",
+    "P4_constrained_interactions": "simplex mixture of G,H,E,I,sqrt(HE),sqrt(HI),sqrt(EI)"
+  },
+  "properties": "Both candidates are monotone, idempotent and internal by construction.",
+  "outer_test_independence": "Rules fitted only from outer-training cross-fitted C predictions",
+  "bootstrap_replicates": 20000,
+  "signflip_replicates": 100000,
+  "multiplicity": "Holm over 3 countries x 2 candidates x 2 losses",
+  "checks": {
+    "each_method_counts": {
+      "China|P0_geometric": 240,
+      "China|P3_weighted_geometric": 240,
+      "China|P4_constrained_interactions": 240,
+      "Indonesia|P0_geometric": 443,
+      "Indonesia|P3_weighted_geometric": 443,
+      "Indonesia|P4_constrained_interactions": 443,
+      "USA|P0_geometric": 3104,
+      "USA|P3_weighted_geometric": 3104,
+      "USA|P4_constrained_interactions": 3104
+    },
+    "all_weights_simplex": true,
+    "all_predictions_internal": true,
+    "all_predictions_finite": true
+  },
+  "interpretation": "Weights are predictive aggregation parameters, not welfare weights.",
+  "manuscript_adoption": {
+    "strategy": "P4_constrained_interactions",
+    "replaced_rows": {
+      "China": 240,
+      "USA": 3104,
+      "Indonesia": 443
+    },
+    "unchanged": "component predictions and A/B predictions"
+  }
+}

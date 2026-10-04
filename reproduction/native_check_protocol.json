@@ -1,0 +1,6 @@
+{
+  "retrospective": true,
+  "sample": "Entire previously cached page0 block (4,4),1024x1024 native pixels; all1024 aligned320m cells; no outcome-based sampling.",
+  "scope": "Single10240m square pilot tile; measurement sensitivity only, no prediction accuracy claim or national representativeness.",
+  "comparison": "Dequantize native10m pixels, arithmetic-average each32x32 cell; compare direct official320m vector, including norms, cosine and renormalized-mean residual."
+}

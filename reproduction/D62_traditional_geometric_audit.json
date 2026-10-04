@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "source": "D56_constrained_aggregation_predictions.csv",
+  "source_sha256": "093ce469ec8c5e6fe69bcc5ef8e0944630166c4c151900c448c7e1ee12f5804a",
+  "comparison": "matched fixed geometric mean versus constrained seven-term synthesis",
+  "component_predictions": "identical within country, unit and outer fold",
+  "bootstrap_replicates": 20000,
+  "seed": 20260930,
+  "multiplicity": "Holm correction over 3 settings x 2 metrics",
+  "interpretation": "This isolates the final synthesis conditional on archived held-out component predictions; it does not compare observed official components with predicted components.",
+  "outputs": [
+    "D60_traditional_geometric_metrics.csv",
+    "D61_traditional_geometric_inference.csv"
+  ]
+}

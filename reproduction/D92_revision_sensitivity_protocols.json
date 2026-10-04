@@ -1,0 +1,45 @@
+{
+  "revision_sensitivity_protocol.json": {
+    "status": "FROZEN_BEFORE_NEW_OUTER_SCORES",
+    "seed": 20261001,
+    "retrospective": true,
+    "EO": "Remove all EO-containing candidate sets; reselect three Ridge configurations using the same five grouped inner folds, raw group-equal MAE, five alpha values, then refit the current seven-term synthesis. Compare with archived full-system predictions at current USA 100 m resolution.",
+    "power_mean": {
+      "grid": [
+        -2.0,
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "selection": "outer-training cross-fitted group-equal MAE; ties prefer exponent closest to zero"
+    },
+    "few_shot": {
+      "k": [
+        1,
+        5,
+        10
+      ],
+      "repetitions": 1000,
+      "method": "median signed-residual offset; clip to [0,1]; score only non-anchor units; paired uncalibrated comparator on identical remainder"
+    },
+    "inference": "20,000 cluster bootstraps; 100,000 group sign flips; Holm over three current no-EO MAE tests and a conservative sensitivity combining those with the 36 archived EO tests",
+    "note": "Neither repeated few-shot draw quantiles nor retrospective sensitivities are independent confirmatory confidence intervals."
+  },
+  "scope_505_protocol.json": {
+    "retrospective": true,
+    "n": 505,
+    "groups": 34,
+    "primary_cohort_changed": false,
+    "selection": "All five original input sets, original five Ridge penalties, raw group-equal component MAE; adopted seven-term synthesis and original shrinkage grid.",
+    "scope": "Coverage-eligible 505 units; report all505, included443, official-scope-excluded62 from the same nested evaluation.",
+    "labels": "Existing corrected 505-unit BPS matrix with documented 30 administrative label swaps, verified against all current 443 targets.",
+    "hashes": {
+      "source://indonesia_adm2_model_matrix_2020.csv": "b7fe205fccd2b85ae6c5d8f2283b4311729e469e7c0ddaa71c5e9428bc546845",
+      "source://corrected_model_matrix_2020.csv": "27c25809e646b32e2e339a9c1d70c2e8b80a26ca2de56feb71ed6d9231a15e06",
+      "source://D04_Indonesia_cohort_514.csv": "8da6fd804f60ba5a4fa0237394f680a0ab8d33fd1e10dbaa8b04877a5e6f36e1"
+    }
+  }
+}

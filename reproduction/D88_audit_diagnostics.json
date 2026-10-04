@@ -1,0 +1,432 @@
+{
+  "scope": "Read-only recalculation of archived predictions; no model selection or manuscript changes.",
+  "EO_ablation": [
+    {
+      "country": "China",
+      "full": 0.011926241983559,
+      "no_EO": 0.0135148556772624,
+      "removal_increase_pct": 13.320320817684173,
+      "adding_EO_reduction_pct": 11.75457386774842
+    },
+    {
+      "country": "Indonesia",
+      "full": 0.0206142642305914,
+      "no_EO": 0.0230476349302829,
+      "removal_increase_pct": 11.804305370649114,
+      "adding_EO_reduction_pct": 10.558006090656313
+    },
+    {
+      "country": "USA (1 km)",
+      "full": 0.0168806644343743,
+      "no_EO": 0.0216777991671201,
+      "removal_increase_pct": 28.41792603244535,
+      "adding_EO_reduction_pct": 22.12925166324945
+    }
+  ],
+  "EO_component_removal": [
+    {
+      "country": "Chinese Mainland",
+      "component": "education",
+      "removal_increase_pct": 21.54460254580406
+    },
+    {
+      "country": "Chinese Mainland",
+      "component": "health",
+      "removal_increase_pct": 17.612398986690536
+    },
+    {
+      "country": "Chinese Mainland",
+      "component": "income",
+      "removal_increase_pct": 0.0
+    },
+    {
+      "country": "Indonesia",
+      "component": "education",
+      "removal_increase_pct": 13.21557247988605
+    },
+    {
+      "country": "Indonesia",
+      "component": "health",
+      "removal_increase_pct": -3.1638515836661885
+    },
+    {
+      "country": "Indonesia",
+      "component": "income",
+      "removal_increase_pct": -6.038934910573057
+    },
+    {
+      "country": "United States",
+      "component": "education",
+      "removal_increase_pct": 14.057997825164549
+    },
+    {
+      "country": "United States",
+      "component": "health",
+      "removal_increase_pct": 30.376605999766593
+    },
+    {
+      "country": "United States",
+      "component": "income",
+      "removal_increase_pct": 16.617983198058205
+    }
+  ],
+  "synthesis_and_quantization": [
+    {
+      "country": "China",
+      "n": 240,
+      "geometric_MAE": 0.011926241983541664,
+      "CM_MAE": 0.012061605862766667,
+      "CM_minus_G_MAE": 0.00013536387922500291,
+      "label_min_unique_step": 0.0010000000000000009,
+      "all_labels_on_grid": true,
+      "rounding_only_paired_delta_range": [
+        9.659978759167566e-05,
+        0.00017502265808333334
+      ],
+      "basis_diagnostics_scope": "Pooled held-out component predictions, not exact fold-specific training designs",
+      "basis_pair_corr_min_max": [
+        0.6011094475776825,
+        0.991276856981244
+      ],
+      "basis_condition_number_raw": 811874.3801531239,
+      "basis_condition_number_centered_standardized": 37534.48914892132,
+      "simplex_contrast_condition_number": 37850.99262756746,
+      "simplex_contrast_rank": 6
+    },
+    {
+      "country": "USA",
+      "n": 3104,
+      "geometric_MAE": 0.01657085344130348,
+      "CM_MAE": 0.01661055877713821,
+      "CM_minus_G_MAE": 3.970533583472879e-05,
+      "label_min_unique_step": 7.064000051570929e-09,
+      "basis_diagnostics_scope": "Pooled held-out component predictions, not exact fold-specific training designs",
+      "basis_pair_corr_min_max": [
+        0.6826080512437915,
+        0.9906538525074133
+      ],
+      "basis_condition_number_raw": 8198541.007848177,
+      "basis_condition_number_centered_standardized": 228652.96273794913,
+      "simplex_contrast_condition_number": 173283.1252626056,
+      "simplex_contrast_rank": 6
+    },
+    {
+      "country": "Indonesia",
+      "n": 443,
+      "geometric_MAE": 0.020614264230534987,
+      "CM_MAE": 0.02071450960912867,
+      "CM_minus_G_MAE": 0.00010024537859368205,
+      "label_min_unique_step": 9.999999999998899e-05,
+      "all_labels_on_grid": true,
+      "rounding_only_paired_delta_range": [
+        0.00010001964495937056,
+        0.00010047111222799353
+      ],
+      "basis_diagnostics_scope": "Pooled held-out component predictions, not exact fold-specific training designs",
+      "basis_pair_corr_min_max": [
+        0.40608850572308075,
+        0.9827177848073032
+      ],
+      "basis_condition_number_raw": 759687.3692596576,
+      "basis_condition_number_centered_standardized": 41871.525951063166,
+      "simplex_contrast_condition_number": 26108.144105077277,
+      "simplex_contrast_rank": 6
+    }
+  ],
+  "label_identity": [
+    {
+      "country": "China",
+      "n": 240,
+      "mean_abs_y_minus_G_observed": 0.0002612350662285453,
+      "max_abs_y_minus_G_observed": 0.0004981183429755287
+    },
+    {
+      "country": "Indonesia",
+      "n": 443,
+      "mean_abs_y_minus_G_observed": 2.3975084817236513e-05,
+      "max_abs_y_minus_G_observed": 4.993402768393995e-05
+    },
+    {
+      "country": "USA",
+      "n": 3104,
+      "mean_abs_y_minus_G_observed": 2.7682209331218116e-13,
+      "max_abs_y_minus_G_observed": 9.371392550860946e-13
+    }
+  ],
+  "China_development_groups": [
+    {
+      "role": "development_train_only",
+      "province_code": "320000",
+      "n": 13
+    },
+    {
+      "role": "development_train_only",
+      "province_code": "330000",
+      "n": 11
+    },
+    {
+      "role": "development_train_only",
+      "province_code": "340000",
+      "n": 16
+    }
+  ],
+  "initial_transfer_clipping": [
+    {
+      "method": "direct_hdi_pooled",
+      "n": 443,
+      "MAE": 0.16080100169665257,
+      "bias": 0.1600145573888984,
+      "spearman": -0.007647346007188023,
+      "y_pred": {
+        "min": 0.7395449024857569,
+        "max": 1.0,
+        "sd": 0.06275822977037993,
+        "unique": 442,
+        "at_0": 0,
+        "at_1": 2
+      },
+      "pred_H": {
+        "min": 0.8362974077163637,
+        "max": 0.9807522872338356,
+        "sd": 0.03239343800401208,
+        "unique": 443,
+        "at_0": 0,
+        "at_1": 0
+      },
+      "pred_E": {
+        "min": 0.5806824735580886,
+        "max": 0.883599508550371,
+        "sd": 0.0701701373777593,
+        "unique": 443,
+        "at_0": 0,
+        "at_1": 0
+      },
+      "pred_I": {
+        "min": 0.8116295516834783,
+        "max": 1.0,
+        "sd": 0.04368751470841439,
+        "unique": 246,
+        "at_0": 0,
+        "at_1": 198
+      }
+    },
+    {
+      "method": "geometric_pooled",
+      "n": 443,
+      "MAE": 0.1573523782773172,
+      "bias": 0.15671842946440265,
+      "spearman": 0.025846395717310816,
+      "y_pred": {
+        "min": 0.7674728251195173,
+        "max": 0.9533922086054556,
+        "sd": 0.04788147485494064,
+        "unique": 443,
+        "at_0": 0,
+        "at_1": 0
+      },
+      "pred_H": {
+        "min": 0.8362974077163637,
+        "max": 0.9807522872338356,
+        "sd": 0.03239343800401208,
+        "unique": 443,
+        "at_0": 0,
+        "at_1": 0
+      },
+      "pred_E": {
+        "min": 0.5806824735580886,
+        "max": 0.883599508550371,
+        "sd": 0.0701701373777593,
+        "unique": 443,
+        "at_0": 0,
+        "at_1": 0
+      },
+      "pred_I": {
+        "min": 0.8116295516834783,
+        "max": 1.0,
+        "sd": 0.04368751470841439,
+        "unique": 246,
+        "at_0": 0,
+        "at_1": 198
+      }
+    },
+    {
+      "method": "direct_hdi_country_equal",
+      "n": 443,
+      "MAE": 0.18523122955130036,
+      "bias": 0.18466536204121023,
+      "spearman": -0.028036612734088806,
+      "y_pred": {
+        "min": 0.7020860437436787,
+        "max": 1.0,
+        "sd": 0.07275602024737235,
+        "unique": 421,
+        "at_0": 0,
+        "at_1": 23
+      },
+      "pred_H": {
+        "min": 0.836192398414087,
+        "max": 0.9692590123356796,
+        "sd": 0.030417506893457215,
+        "unique": 443,
+        "at_0": 0,
+        "at_1": 0
+      },
+      "pred_E": {
+        "min": 0.5423205688693591,
+        "max": 0.9133206242962104,
+        "sd": 0.07804753167295699,
+        "unique": 443,
+        "at_0": 0,
+        "at_1": 0
+      },
+      "pred_I": {
+        "min": 0.8443207145276743,
+        "max": 1.0,
+        "sd": 0.036957451779829946,
+        "unique": 174,
+        "at_0": 0,
+        "at_1": 270
+      }
+    },
+    {
+      "method": "geometric_country_equal",
+      "n": 443,
+      "MAE": 0.16920713858335734,
+      "bias": 0.1689249055854984,
+      "spearman": 0.051612941072956796,
+      "y_pred": {
+        "min": 0.7386682372039737,
+        "max": 0.9574901639248576,
+        "sd": 0.04638745124499853,
+        "unique": 443,
+        "at_0": 0,
+        "at_1": 0
+      },
+      "pred_H": {
+        "min": 0.836192398414087,
+        "max": 0.9692590123356796,
+        "sd": 0.030417506893457215,
+        "unique": 443,
+        "at_0": 0,
+        "at_1": 0
+      },
+      "pred_E": {
+        "min": 0.5423205688693591,
+        "max": 0.9133206242962104,
+        "sd": 0.07804753167295699,
+        "unique": 443,
+        "at_0": 0,
+        "at_1": 0
+      },
+      "pred_I": {
+        "min": 0.8443207145276743,
+        "max": 1.0,
+        "sd": 0.036957451779829946,
+        "unique": 174,
+        "at_0": 0,
+        "at_1": 270
+      }
+    }
+  ],
+  "intervals": [
+    {
+      "country": "Chinese Mainland",
+      "n": 240,
+      "MAE": 0.012061605862766667,
+      "median_width": 0.066441289232,
+      "width_to_MAE": 5.508494473119836,
+      "label_IQR": 0.04625000000000001,
+      "width_to_IQR": 1.4365684158270267,
+      "coverage": 0.9583333333333334,
+      "min_calibration_units": 39,
+      "max_calibration_units": 47,
+      "finite_quantile_min_max": [
+        0.974358974359,
+        0.978723404255
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "n": 443,
+      "MAE": 0.020714509609128674,
+      "median_width": 0.096920585896,
+      "width_to_MAE": 4.6788742637329,
+      "label_IQR": 0.059699999999999975,
+      "width_to_IQR": 1.6234604002680073,
+      "coverage": 0.9706546275395034,
+      "min_calibration_units": 73,
+      "max_calibration_units": 88,
+      "finite_quantile_min_max": [
+        0.962025316456,
+        0.974358974359
+      ]
+    },
+    {
+      "country": "United States",
+      "n": 3104,
+      "MAE": 0.01661055877713821,
+      "median_width": 0.084123920854,
+      "width_to_MAE": 5.0644847041379,
+      "label_IQR": 0.044060244260250014,
+      "width_to_IQR": 1.909293111429579,
+      "coverage": 0.9478092783505154,
+      "min_calibration_units": 496,
+      "max_calibration_units": 620,
+      "finite_quantile_min_max": [
+        0.951534733441,
+        0.953629032258
+      ]
+    }
+  ],
+  "input_hashes": {
+    "D44_C_no_EO_metrics.csv": "4874e0ff6547ac698262d4c40729fec1998ea919df1c7a8b47540ddbafbd6f13",
+    "D56_constrained_aggregation_predictions.csv": "093ce469ec8c5e6fe69bcc5ef8e0944630166c4c151900c448c7e1ee12f5804a",
+    "D30_prediction_uncertainty.csv": "71c9364dae89cbad36d173a8f0032162926152082635357ee775b9b8b17d0ec2",
+    "main_online.tex": "878498cb5652fb11df7a9389588b2ae9aa14ab263a1c73e3b569a477a6ef536e",
+    "supplement_online.tex": "370b4b2d9ee8d91095a3dbe99c3efb5898d01a4bd490a689ac43cd1d08cb21b3"
+  },
+  "transfer_fixed_configuration_reconstruction": {
+    "scope": "Diagnostic reconstruction of archived fixed configurations, no new model tuning. Unclipped values are not proposed as a valid bounded HDI model.",
+    "actual_69_inputs_controls": [
+      "control_log1p_population",
+      "control_log1p_population_density",
+      "control_worldpop_child_share",
+      "control_worldpop_elderly_share",
+      "control_urbanization_rate"
+    ],
+    "results": [
+      {
+        "weighting": "pooled",
+        "n": 443,
+        "max_abs_reproduction_error": 1.1102230246251565e-16,
+        "clipped_geometric_MAE": 0.1573523782773172,
+        "clipped_geometric_rho": 0.025846395717310816,
+        "unclipped_geometric_MAE": 0.164066707843233,
+        "unclipped_geometric_rho": -0.0003276142323448466,
+        "raw_income_min_max": [
+          0.8116295516834783,
+          1.1662579254726404
+        ],
+        "raw_income_gt1": 198,
+        "raw_health_gt1": 0,
+        "raw_education_gt1": 0
+      },
+      {
+        "weighting": "country_equal",
+        "n": 443,
+        "max_abs_reproduction_error": 1.1102230246251565e-16,
+        "clipped_geometric_MAE": 0.16920713858335734,
+        "clipped_geometric_rho": 0.051612941072956796,
+        "unclipped_geometric_MAE": 0.18666359774330152,
+        "unclipped_geometric_rho": 0.0016890042359754439,
+        "raw_income_min_max": [
+          0.8443207145276743,
+          1.3201503762871079
+        ],
+        "raw_income_gt1": 270,
+        "raw_health_gt1": 0,
+        "raw_education_gt1": 0
+      }
+    ]
+  }
+}

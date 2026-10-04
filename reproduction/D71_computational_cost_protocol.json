@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETED",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "logical_cpus": 12,
+  "ram_gib": 15.730705261230469,
+  "compute_threads": 1,
+  "device": "CPU",
+  "models": [
+    "ridge",
+    "rf",
+    "svr",
+    "geometric",
+    "cmhdi",
+    "resmlp",
+    "ftt"
+  ],
+  "outer_folds": 24,
+  "refit_repeats": 3,
+  "inference_warmups": 3,
+  "inference_repeats": 30,
+  "permutation_repeats": 30,
+  "input": "same archived 280 x 74 matrix; original algorithm-specific input selection retained",
+  "timing": "Fixed selected hyperparameters. Full refit, training-only scaling, CM-HDI cross-fit generation and synthesis fit; neural three-seed ensemble. EXCLUDES hyperparameter search and source data/EO extraction.",
+  "memory": "RSS sampled every 2 ms during train/inference; approximate sampled peak, absolute RSS includes runtime; increment is allocator-dependent.",
+  "permutation": "Within each outer held-out province, jointly permute all columns in each of four predefined blocks; full composite pipeline frozen; unit-equal MAE increase; conditional on within-province variation.",
+  "source_sha256": {
+    "source://D49_China_neural_input_matrix.csv": "2b2a87801587251b81d0a177627e8ba77468acd5387f7b99cd2de8022db6a99a",
+    "source://D50_China_neural_splits.json": "6946ce1912944d0b8dd486fb0135b098ea6beede6e5f79366e86eaea07f3352d",
+    "source://D55_China_neural_audit.json": "d014a08e2a9592974ca17b110e1fe68cc4c8f3c1f90248188a353963fb5ddbd2",
+    "source://D57_constrained_aggregation_coefficients.csv": "9d8af00cc72df56cdbfb0be64f75c6043330b49046aaf43a10489a5941a57ee9",
+    "source://base_C_inner_selection.csv": "cf2e8cfa6fbb75deadcf53e0d9e6c819f420df3b4f346492f15f735d54eb78c7",
+    "source://outer_selections.csv": "c8ccae3a638240d6140bf1900923aad06a34104a7856b357d2feb337e37e901b",
+    "source://outer_selection_records.csv": "1041dd9a47f5b4f6c6e77f42d2432bcaec81ece6b4f68a6d275b5792bbf088be",
+    "source://component_input_input_2020.csv": "7b74db65159403c2b9f982fb7a25109c7b58f995c14e55f0795823b5fc5673ed"
+  },
+  "precision_note": "Traditional fits restore original round-trip CSV precision; elementwise input and target differences from D49 are asserted <1e-12. Initial reserialization differences are resolved for SVR and reduced for RF. RF retains two prediction differences (maximum 0.000240, mean absolute difference 0.000001319); the remaining cause is unresolved. All other model predictions reproduce their archives.",
+  "benchmark_script_sha256": "939ec546546e8bdd98596eb8534693c3c59fbfbd43eeb42db6ea1cd344ff6de3"
+}

@@ -1,0 +1,14 @@
+{
+  "retrospective": true,
+  "seed": 20261002,
+  "inputs": {
+    "source://Indonesia505.csv": "193027d569687a49cdfd1f55f846be98b655b11236247647a1cb0ea3cb74c24c",
+    "source://D84_Indonesia505_predictions.csv": "0a61c2f92c38596970ef20977bac99c1620ce938877692545d611b2292109cfe",
+    "source://D73_current_no_EO_predictions.csv": "d31be63657cffc2732cc90097d49540d4585e5c459320969e5c21615c0312e80",
+    "source://nationwide331_features_overview160.csv": "11d1c75f101cde557ede0ad7aaca486b65c5f9301ec2f2754c4c1c102db77002"
+  },
+  "Indonesia505": "Same 505 units, corrected labels, original leave-one-province-out and five group inner folds; remove all EO candidate sets, select R6/R_S10 with original penalties and adopt seven-term constrained synthesis.",
+  "spatial": "Delta_i = abs(noEO-y) - abs(fullEO-y), positive means EO helps. Main samples: China240, USA3104, Indonesia443. Full505 is a separate paired sensitivity; never splice predictions across fits.",
+  "subgroups": "Before new outcomes: official excluded62 vs included443; within each main country density and urbanization terciles from inputs; 20000 paired province/state bootstrap resamples. Descriptive intervals, no new confirmatory significance claims.",
+  "resolution": "China: replace only 64 population-weighted EO means with existing 160m features; preserve all units, targets, input libraries, inner/outer splits, penalties and synthesis. Reselect on inner folds only. All 24 outer folds scored on the same240 units. Native10m remains distinct; 160m is an intermediate overview check, not proof of native equivalence."
+}
