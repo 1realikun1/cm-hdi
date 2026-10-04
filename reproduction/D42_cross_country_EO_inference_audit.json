@@ -1,0 +1,37 @@
+{
+  "scope": "Conditional incremental prediction, not causal identification",
+  "inputs": {
+    "D40_CN_ID_fixed_input_predictions.csv": "2f80d8ffd7bd6568bfd78f604370ad9038bd19952dd99658f15689a3ba791db2",
+    "D18_USA_100m_HDI_predictions.csv": "c370c2da2060bcd02a92f8ee51c68e9e6751dd3a7f570c32b2ebb69810d7ab52"
+  },
+  "contrasts": {
+    "all_tabular": [
+      "R_S10",
+      "B_RS74"
+    ],
+    "population_economy": [
+      "R6",
+      "B_R70"
+    ]
+  },
+  "cohorts": {
+    "China": [
+      240,
+      24
+    ],
+    "Indonesia": [
+      443,
+      34
+    ],
+    "USA": [
+      3104,
+      51
+    ]
+  },
+  "replicates": 20000,
+  "seed": 20260928,
+  "multiplicity": "One 36-test Holm family: 3 countries x 2 fixed-input contrasts x 6 metrics",
+  "positive_contrasts": "EO passing rate minus traditional passing rate; traditional absolute/squared error minus EO error",
+  "assumptions": "Group sign symmetry/exchangeability; fixed archived outer predictions; no resampled refitting",
+  "D37_status": "Preserved historical USA-only 12-test analysis; D41 is the joint cross-setting analysis"
+}

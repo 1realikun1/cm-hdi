@@ -1,0 +1,18 @@
+{
+  "analysis": "spatially grouped bootstrap uncertainty for held-out CM-HDI predictions",
+  "seed": 20260927,
+  "bootstrap_resamples": 20000,
+  "interval_level": 0.95,
+  "residual_strata": 5,
+  "aggregate_interval": "percentile outer-group cluster bootstrap",
+  "prediction_interval": "group-excluded two-stage residual bootstrap within predicted-HDI quintile",
+  "scope": "predictive variation in archived held-out residuals; source-label uncertainty excluded",
+  "input_files": [
+    "D01_ABC_predictions.csv",
+    "D18_USA_100m_HDI_predictions.csv"
+  ],
+  "output_files": [
+    "D30_prediction_uncertainty.csv",
+    "D31_uncertainty_summary.csv"
+  ]
+}

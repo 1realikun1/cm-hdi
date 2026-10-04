@@ -1,0 +1,12 @@
+﻿selection_target,selected_model,outer_fold_count,support
+y_education_index,B_RS74,51,1 km
+y_health_index,B_R70,38,1 km
+y_health_index,B_RS74,13,1 km
+y_income_index,B_R70,1,1 km
+y_income_index,B_RS74,50,1 km
+y_education_index,B_R70,4,100 m
+y_education_index,B_RS74,47,100 m
+y_health_index,B_R70,44,100 m
+y_health_index,B_RS74,7,100 m
+y_income_index,B_R70,28,100 m
+y_income_index,B_RS74,23,100 m

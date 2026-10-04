@@ -1,0 +1,48 @@
+{
+  "retrospective": true,
+  "sample": "Entire previously cached page0 block (4,4),1024x1024 native pixels; all1024 aligned320m cells; no outcome-based sampling.",
+  "scope": "Single10240m square pilot tile; measurement sensitivity only, no prediction accuracy claim or national representativeness.",
+  "comparison": "Dequantize native10m pixels, arithmetic-average each32x32 cell; compare direct official320m vector, including norms, cosine and renormalized-mean residual.",
+  "source_metadata": "source://materialized_blocks.json",
+  "source_metadata_sha256": "9c3715a52ccdf65cd6dfc0becb15e3a78e7e1fde2a5b36def21377115aa14f55",
+  "overview_sha256": "8689eafe7983e99202a534df7b258029e66d71ac07fee965f287e2944d7dd134",
+  "native_integer_checksum": -103283021,
+  "native_resolution_m": 10,
+  "native_pixel_count": 1048576,
+  "overview_cell_count": 1024,
+  "crs": "EPSG:32650",
+  "center_longitude": 117.49328762902987,
+  "center_latitude": 32.992513337261755,
+  "statistics": {
+    "native_mean_norm": {
+      "mean": 0.9473140784315917,
+      "median": 0.9471767405835845,
+      "p05": 0.8962568285046387,
+      "p95": 0.9909338219555468
+    },
+    "overview_norm": {
+      "mean": 1.0002214639953029,
+      "median": 1.0002832296358455,
+      "p05": 0.9969884886468322,
+      "p95": 1.0036122343775602
+    },
+    "raw_L2_difference": {
+      "mean": 0.054781787850720284,
+      "median": 0.054243888420433754,
+      "p05": 0.014262987147468879,
+      "p95": 0.10413267596904034
+    },
+    "cosine_similarity": {
+      "mean": 0.9999365634117687,
+      "median": 0.9999370063010605,
+      "p05": 0.9999209149569029,
+      "p95": 0.9999515340167293
+    },
+    "renormalized_mean_L2_difference": {
+      "mean": 0.011410845132196559,
+      "median": 0.011436414981278353,
+      "p05": 0.010024398409380117,
+      "p95": 0.012749203495611275
+    }
+  }
+}

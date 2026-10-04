@@ -1,0 +1,683 @@
+{
+  "status": "COMPLETED_MATCHED_NEURAL_BASELINES",
+  "created_with_seed": 20260928,
+  "scope": {
+    "country": "Chinese Mainland",
+    "cohort": 280,
+    "outer_scored_cities": 240,
+    "development_train_only_cities": 40,
+    "outer_folds": 24,
+    "inner_folds_per_outer": 5
+  },
+  "estimand": "downstream fusion comparison on identical 74 regional numerical predictors",
+  "targets": [
+    "lifeindex",
+    "eduindex",
+    "incomeindex"
+  ],
+  "synthesis": "clip component predictions to [0,1], then fixed geometric mean",
+  "selection_metric": "province-equal HDI MAE from pooled inner out-of-fold predictions",
+  "target_preprocessing": "component-wise mean and standard deviation fitted on each training partition; predictions inverse-transformed and clipped to [0,1]",
+  "final_training": "median inner early-stopping epoch; three deterministic seeds averaged",
+  "architectures": [
+    {
+      "config_id": "resmlp_64",
+      "family": "Residual MLP",
+      "d_hidden": 64,
+      "n_layers": 2,
+      "n_heads": 1,
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "batch_size": 512,
+      "max_epochs": 200,
+      "patience": 20
+    },
+    {
+      "config_id": "resmlp_128_reg",
+      "family": "Residual MLP",
+      "d_hidden": 128,
+      "n_layers": 2,
+      "n_heads": 1,
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.001,
+      "batch_size": 512,
+      "max_epochs": 200,
+      "patience": 20
+    },
+    {
+      "config_id": "ftt_16",
+      "family": "FT-Transformer",
+      "d_hidden": 16,
+      "n_layers": 2,
+      "n_heads": 4,
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "batch_size": 512,
+      "max_epochs": 160,
+      "patience": 15
+    },
+    {
+      "config_id": "ftt_24_reg",
+      "family": "FT-Transformer",
+      "d_hidden": 24,
+      "n_layers": 2,
+      "n_heads": 4,
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "weight_decay": 0.001,
+      "batch_size": 512,
+      "max_epochs": 160,
+      "patience": 15
+    }
+  ],
+  "selected_outer_models": [
+    {
+      "outer_test_province": "130000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.01689487462093495,
+      "final_epochs": 60,
+      "final_seeds": [
+        338048027,
+        852807676,
+        752401565
+      ]
+    },
+    {
+      "outer_test_province": "130000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_24_reg",
+      "pooled_inner_province_equal_mae": 0.021054341046104312,
+      "final_epochs": 65,
+      "final_seeds": [
+        382915272,
+        251616193,
+        22891219
+      ]
+    },
+    {
+      "outer_test_province": "140000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.016673347041881757,
+      "final_epochs": 15,
+      "final_seeds": [
+        676643189,
+        655815696,
+        781076623
+      ]
+    },
+    {
+      "outer_test_province": "140000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.021124054184099107,
+      "final_epochs": 50,
+      "final_seeds": [
+        443501553,
+        351938835,
+        809126260
+      ]
+    },
+    {
+      "outer_test_province": "150000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.017800862411939664,
+      "final_epochs": 15,
+      "final_seeds": [
+        434311280,
+        975263745,
+        104995789
+      ]
+    },
+    {
+      "outer_test_province": "150000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_24_reg",
+      "pooled_inner_province_equal_mae": 0.021432566221319796,
+      "final_epochs": 55,
+      "final_seeds": [
+        958042478,
+        501642590,
+        640751025
+      ]
+    },
+    {
+      "outer_test_province": "210000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.017870611633576974,
+      "final_epochs": 30,
+      "final_seeds": [
+        566379206,
+        989711085,
+        80771360
+      ]
+    },
+    {
+      "outer_test_province": "210000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_24_reg",
+      "pooled_inner_province_equal_mae": 0.017569466190948537,
+      "final_epochs": 105,
+      "final_seeds": [
+        881392031,
+        323287578,
+        644238720
+      ]
+    },
+    {
+      "outer_test_province": "220000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.01805013148633147,
+      "final_epochs": 25,
+      "final_seeds": [
+        1008311724,
+        44606123,
+        23829680
+      ]
+    },
+    {
+      "outer_test_province": "220000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.02043025959778379,
+      "final_epochs": 55,
+      "final_seeds": [
+        472664690,
+        899387439,
+        973530554
+      ]
+    },
+    {
+      "outer_test_province": "230000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.017950289195991728,
+      "final_epochs": 30,
+      "final_seeds": [
+        620535175,
+        992643687,
+        492779714
+      ]
+    },
+    {
+      "outer_test_province": "230000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.018677650513244656,
+      "final_epochs": 80,
+      "final_seeds": [
+        164676951,
+        255012691,
+        117532531
+      ]
+    },
+    {
+      "outer_test_province": "350000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.016765728331573092,
+      "final_epochs": 45,
+      "final_seeds": [
+        784361437,
+        329216696,
+        787038557
+      ]
+    },
+    {
+      "outer_test_province": "350000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_24_reg",
+      "pooled_inner_province_equal_mae": 0.02024703056731478,
+      "final_epochs": 90,
+      "final_seeds": [
+        426124729,
+        911078862,
+        696079361
+      ]
+    },
+    {
+      "outer_test_province": "360000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.016293279603364495,
+      "final_epochs": 30,
+      "final_seeds": [
+        608213997,
+        311141979,
+        400253393
+      ]
+    },
+    {
+      "outer_test_province": "360000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_24_reg",
+      "pooled_inner_province_equal_mae": 0.02128826243603493,
+      "final_epochs": 55,
+      "final_seeds": [
+        568040994,
+        844018351,
+        755466162
+      ]
+    },
+    {
+      "outer_test_province": "370000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.01703802942471289,
+      "final_epochs": 40,
+      "final_seeds": [
+        549494390,
+        165131636,
+        610635397
+      ]
+    },
+    {
+      "outer_test_province": "370000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_24_reg",
+      "pooled_inner_province_equal_mae": 0.018127241582508818,
+      "final_epochs": 45,
+      "final_seeds": [
+        782393198,
+        290135291,
+        577499861
+      ]
+    },
+    {
+      "outer_test_province": "410000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.01747804804163561,
+      "final_epochs": 30,
+      "final_seeds": [
+        148586234,
+        485511210,
+        716425827
+      ]
+    },
+    {
+      "outer_test_province": "410000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.019881046006822452,
+      "final_epochs": 40,
+      "final_seeds": [
+        446311869,
+        82324431,
+        102530116
+      ]
+    },
+    {
+      "outer_test_province": "420000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.01736488368218441,
+      "final_epochs": 30,
+      "final_seeds": [
+        997921943,
+        481580447,
+        20810479
+      ]
+    },
+    {
+      "outer_test_province": "420000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.01891819787672258,
+      "final_epochs": 55,
+      "final_seeds": [
+        160833179,
+        245839342,
+        528109182
+      ]
+    },
+    {
+      "outer_test_province": "430000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.015725213521597274,
+      "final_epochs": 40,
+      "final_seeds": [
+        923970894,
+        90082099,
+        476225729
+      ]
+    },
+    {
+      "outer_test_province": "430000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.019905896958669282,
+      "final_epochs": 95,
+      "final_seeds": [
+        585173650,
+        453249211,
+        209547070
+      ]
+    },
+    {
+      "outer_test_province": "440000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.016705563170977527,
+      "final_epochs": 30,
+      "final_seeds": [
+        837057204,
+        184694137,
+        543429973
+      ]
+    },
+    {
+      "outer_test_province": "440000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_24_reg",
+      "pooled_inner_province_equal_mae": 0.019233436373844705,
+      "final_epochs": 100,
+      "final_seeds": [
+        134030499,
+        147629375,
+        145974492
+      ]
+    },
+    {
+      "outer_test_province": "450000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.0165041198369141,
+      "final_epochs": 65,
+      "final_seeds": [
+        1012058341,
+        351131900,
+        803664461
+      ]
+    },
+    {
+      "outer_test_province": "450000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.020658456059402256,
+      "final_epochs": 40,
+      "final_seeds": [
+        587476551,
+        934224714,
+        435802532
+      ]
+    },
+    {
+      "outer_test_province": "460000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.017917175140390942,
+      "final_epochs": 40,
+      "final_seeds": [
+        973267161,
+        620308712,
+        848336281
+      ]
+    },
+    {
+      "outer_test_province": "460000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_24_reg",
+      "pooled_inner_province_equal_mae": 0.019601923708693157,
+      "final_epochs": 80,
+      "final_seeds": [
+        43324355,
+        320456731,
+        993357883
+      ]
+    },
+    {
+      "outer_test_province": "510000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.016226343002912806,
+      "final_epochs": 30,
+      "final_seeds": [
+        953158831,
+        948623038,
+        474518299
+      ]
+    },
+    {
+      "outer_test_province": "510000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.018594494545873162,
+      "final_epochs": 60,
+      "final_seeds": [
+        251714348,
+        74999597,
+        864347099
+      ]
+    },
+    {
+      "outer_test_province": "520000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.017300096637413984,
+      "final_epochs": 25,
+      "final_seeds": [
+        397598968,
+        593134911,
+        688308606
+      ]
+    },
+    {
+      "outer_test_province": "520000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.01968594465655389,
+      "final_epochs": 45,
+      "final_seeds": [
+        474440545,
+        968684505,
+        863470980
+      ]
+    },
+    {
+      "outer_test_province": "530000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.017871405069962147,
+      "final_epochs": 20,
+      "final_seeds": [
+        595236245,
+        158615783,
+        343306936
+      ]
+    },
+    {
+      "outer_test_province": "530000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_24_reg",
+      "pooled_inner_province_equal_mae": 0.020116519196443826,
+      "final_epochs": 85,
+      "final_seeds": [
+        552012849,
+        828603762,
+        911417304
+      ]
+    },
+    {
+      "outer_test_province": "540000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.017431832826660307,
+      "final_epochs": 25,
+      "final_seeds": [
+        999185137,
+        583706349,
+        320587042
+      ]
+    },
+    {
+      "outer_test_province": "540000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.019205593303621912,
+      "final_epochs": 105,
+      "final_seeds": [
+        229243069,
+        699008011,
+        127316713
+      ]
+    },
+    {
+      "outer_test_province": "610000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.017838813191970306,
+      "final_epochs": 30,
+      "final_seeds": [
+        88516445,
+        362358136,
+        194571139
+      ]
+    },
+    {
+      "outer_test_province": "610000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.021991321887657858,
+      "final_epochs": 50,
+      "final_seeds": [
+        901811815,
+        295313393,
+        249135554
+      ]
+    },
+    {
+      "outer_test_province": "620000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.017964424829364587,
+      "final_epochs": 40,
+      "final_seeds": [
+        393139503,
+        311772695,
+        57915605
+      ]
+    },
+    {
+      "outer_test_province": "620000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.02107203630874955,
+      "final_epochs": 40,
+      "final_seeds": [
+        250428770,
+        524563700,
+        214076898
+      ]
+    },
+    {
+      "outer_test_province": "630000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_128_reg",
+      "pooled_inner_province_equal_mae": 0.015861729382661286,
+      "final_epochs": 60,
+      "final_seeds": [
+        308000202,
+        160082215,
+        212458968
+      ]
+    },
+    {
+      "outer_test_province": "630000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.018791838306386123,
+      "final_epochs": 60,
+      "final_seeds": [
+        532230308,
+        721043699,
+        479452526
+      ]
+    },
+    {
+      "outer_test_province": "640000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.017609630466761336,
+      "final_epochs": 20,
+      "final_seeds": [
+        97584611,
+        693280522,
+        459028327
+      ]
+    },
+    {
+      "outer_test_province": "640000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.02039538104196489,
+      "final_epochs": 80,
+      "final_seeds": [
+        187810287,
+        261898805,
+        879087133
+      ]
+    },
+    {
+      "outer_test_province": "650000",
+      "family": "Residual MLP",
+      "selected_config": "resmlp_64",
+      "pooled_inner_province_equal_mae": 0.01561145227663479,
+      "final_epochs": 45,
+      "final_seeds": [
+        835476342,
+        285984220,
+        604088115
+      ]
+    },
+    {
+      "outer_test_province": "650000",
+      "family": "FT-Transformer",
+      "selected_config": "ftt_16",
+      "pooled_inner_province_equal_mae": 0.01645355608611883,
+      "final_epochs": 70,
+      "final_seeds": [
+        963496189,
+        435045759,
+        673023656
+      ]
+    }
+  ],
+  "inference": {
+    "unit": "province cluster",
+    "bootstrap_replicates": 20000,
+    "signflip_replicates": 20000,
+    "holm_family": "2 neural comparators x 6 metrics = 12 tests",
+    "conditioning": "inference conditions on completed out-of-fold predictions"
+  },
+  "exclusions": {
+    "GeoViSTA": "requires image-patch tensors unavailable in the regional-vector benchmark",
+    "GNN": "requires a prespecified graph and a graph-safe geographic holdout estimand"
+  },
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.12.1+cpu",
+    "numpy": "2.4.4",
+    "pandas": "3.0.3"
+  },
+  "sha256_inputs": {
+    "D49_China_neural_input_matrix.csv": "2b2a87801587251b81d0a177627e8ba77468acd5387f7b99cd2de8022db6a99a",
+    "D50_China_neural_splits.json": "6946ce1912944d0b8dd486fb0135b098ea6beede6e5f79366e86eaea07f3352d",
+    "D01_ABC_predictions.csv": "42754d9f74ddf1d9cb9b306667a541c1f0664b733f1da482932d14b3e0f13521"
+  },
+  "sha256_outputs": {
+    "D51_China_neural_predictions.csv": "44b36849c7fe0fc0afbe8af95adf019c5f5fd6bcb2ddee330c40046cbcde234e",
+    "D52_China_neural_tuning.csv": "eb7d7ce7eb9f0cd90cc43701a9caa00498f50cd5ea6daf0ad5f616e0749f624f",
+    "D53_China_neural_metrics.csv": "785932d055ae1305e8663c1ca50a347a6827ea83986093370671f0258fcd3dea",
+    "D54_China_neural_inference.csv": "490afa23fa63c920f6de59bc662a4984b946bb9b15619d684c43043f7950fd9e"
+  },
+  "synthesis_note": "Strategy C uses the nested constrained interaction synthesis; the archived neural comparators retain their fixed geometric synthesis. The comparison therefore evaluates complete predictive systems on identical regions and component targets."
+}

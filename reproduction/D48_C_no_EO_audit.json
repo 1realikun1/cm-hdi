@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "analysis_date": "2026-09-28",
+  "estimand": "Change in held-out strategy-C prediction when EO-containing candidate sets are removed and component models reselect among R6 and R_S10",
+  "settings": {
+    "Chinese Mainland": {
+      "n": 240,
+      "outer_groups": 24,
+      "support": "100 m",
+      "execution": "restricted-library replay of archived fitted candidate predictions",
+      "determinism": "PASS"
+    },
+    "Indonesia": {
+      "n": 443,
+      "outer_groups": 34,
+      "support": "1 km",
+      "execution": "nested procedure rerun on frozen cohort and folds",
+      "determinism": "PASS"
+    },
+    "United States": {
+      "n": 3104,
+      "outer_groups": 51,
+      "support": "1 km",
+      "execution": "completed same-structure archived ablation",
+      "determinism": "PASS"
+    }
+  },
+  "candidate_library_full": [
+    "B69",
+    "R6",
+    "B_R70",
+    "R_S10",
+    "B_RS74"
+  ],
+  "candidate_library_no_EO": [
+    "R6",
+    "R_S10"
+  ],
+  "metrics": [
+    "P3",
+    "P5",
+    "P8",
+    "P10",
+    "MAE",
+    "MSE"
+  ],
+  "bootstrap_replicates": 20000,
+  "seed": 20260928,
+  "multiplicity": "Holm correction over one family of 18 tests",
+  "interpretation": "predictive dependence under the evaluated learners; not causal identification",
+  "files": {
+    "D44_C_no_EO_metrics.csv": {
+      "sha256": "4874e0ff6547ac698262d4c40729fec1998ea919df1c7a8b47540ddbafbd6f13",
+      "bytes": 1171
+    },
+    "D45_C_no_EO_paired_inference.csv": {
+      "sha256": "ba5bd4496d2fe138cdfcedc0cbcc6dbc594a73aee5c3eabdb68cfd9f468bad0b",
+      "bytes": 3613
+    },
+    "D46_C_no_EO_predictions.csv": {
+      "sha256": "1c375915eb6e624712d9bd0d6701a107816fb0f2ccb05ab74594df8d9816198a",
+      "bytes": 574323
+    },
+    "D47_C_no_EO_component_metrics.csv": {
+      "sha256": "cd43014f3a877296b0c894284e5fc7c92b872dd7db08bdf75e4a381a7c985c0f",
+      "bytes": 1399
+    }
+  }
+}

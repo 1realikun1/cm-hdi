@@ -1,0 +1,68 @@
+{
+  "created_utc": "2026-09-26T14:54:29.168305+00:00",
+  "scope": "50 states and District of Columbia; county/county-equivalent units",
+  "county_count": 3142,
+  "complete_label_count": 3108,
+  "missing_by_field": {
+    "y_health_index": 31,
+    "y_education_index": 8,
+    "y_income_index": 0,
+    "y_hdi": 34
+  },
+  "hdi_summary": {
+    "count": 3108.0,
+    "mean": 0.8913124084306263,
+    "std": 0.032498409562812657,
+    "min": 0.7722082179485068,
+    "25%": 0.8680534239858991,
+    "50%": 0.8904785372837677,
+    "75%": 0.9121446875935876,
+    "max": 0.9916544038340284
+  },
+  "component_summaries": {
+    "y_health_index": {
+      "count": 3108.0,
+      "mean": 0.8826729154334643,
+      "std": 0.03988571153328058,
+      "min": 0.6846133597135015,
+      "25%": 0.856038963518798,
+      "50%": 0.8845877105386637,
+      "75%": 0.9080296382900418,
+      "max": 1.0
+    },
+    "y_education_index": {
+      "count": 3108.0,
+      "mean": 0.8459214169900671,
+      "std": 0.04502081320984933,
+      "min": 0.6403462933224169,
+      "25%": 0.8156306530387054,
+      "50%": 0.8401319566380036,
+      "75%": 0.8713579283028086,
+      "max": 1.0
+    },
+    "y_income_index": {
+      "count": 3108.0,
+      "mean": 0.9492117099543187,
+      "std": 0.029579017361888896,
+      "min": 0.8089381462227239,
+      "25%": 0.9305028607532841,
+      "50%": 0.9507599008021468,
+      "75%": 0.9695083245441253,
+      "max": 1.0
+    }
+  },
+  "formula": {
+    "health": "clip((life_expectancy-20)/65,0,1)",
+    "education": "clip(0.5*(mean_years/15 + expected_years/18),0,1)",
+    "income": "clip((ln(RPP-adjusted county GNIpc)-ln(100))/(ln(75000)-ln(100)),0,1)",
+    "hdi": "(health*education*income)^(1/3)"
+  },
+  "national_gni_per_capita_2019_2017ppp": 63826.0,
+  "national_acs_population_sum": 324697795.0,
+  "national_gni_allocated": 20724161463670.0,
+  "rpp_source_counts": {
+    "BEA state RPP fallback": 1962,
+    "BEA metro/micro RPP": 1180
+  },
+  "output": "source://usa_county_hdi_components_2019.csv"
+}

@@ -1,0 +1,39 @@
+﻿geoid,county_name_acs,state_fips,label_complete,predictors_complete,coverage_pass,exclusion_reason,feature_failure,eo_population_coverage,health_population_coverage_after_coastfill
+02070,"Dillingham Census Area, Alaska",02,True,True,False,,,1,0.974846566093
+02275,"Wrangell City and Borough, Alaska",02,True,True,False,,,1,0.986906605521
+06003,"Alpine County, California",06,True,False,True,,,1,1.0
+08053,"Hinsdale County, Colorado",08,False,True,True,IHME estimate masked/unavailable,,1,1.0
+08079,"Mineral County, Colorado",08,False,True,True,IHME estimate masked/unavailable,,1,1.0
+08111,"San Juan County, Colorado",08,False,True,True,IHME estimate masked/unavailable,,1,1.0
+15005,"Kalawao County, Hawaii",15,False,False,True,,,1,1.0
+16033,"Clark County, Idaho",16,False,False,True,IHME estimate masked/unavailable,,1,1.0
+28055,"Issaquena County, Mississippi",28,False,False,True,,,1,1.0
+30037,"Golden Valley County, Montana",30,False,False,True,IHME estimate masked/unavailable,,1,1.0
+30069,"Petroleum County, Montana",30,False,False,True,IHME estimate masked/unavailable,,1,1.0
+30103,"Treasure County, Montana",30,False,False,True,IHME estimate masked/unavailable,,1,1.0
+38007,"Billings County, North Dakota",38,False,True,True,IHME estimate masked/unavailable,,1,1.0
+38087,"Slope County, North Dakota",38,False,False,True,IHME estimate masked/unavailable,,1,1.0
+31005,"Arthur County, Nebraska",31,False,False,True,IHME estimate masked/unavailable,,1,1.0
+31007,"Banner County, Nebraska",31,False,False,True,IHME estimate masked/unavailable,,1,1.0
+31009,"Blaine County, Nebraska",31,False,False,True,IHME estimate masked/unavailable,,1,1.0
+31075,"Grant County, Nebraska",31,False,True,True,IHME estimate masked/unavailable,,1,1.0
+31085,"Hayes County, Nebraska",31,False,True,True,IHME estimate masked/unavailable,,1,1.0
+31091,"Hooker County, Nebraska",31,False,True,True,IHME estimate masked/unavailable,,1,1.0
+31103,"Keya Paha County, Nebraska",31,False,True,True,IHME estimate masked/unavailable,,1,1.0
+31113,"Logan County, Nebraska",31,False,False,True,IHME estimate masked/unavailable,,1,1.0
+31115,"Loup County, Nebraska",31,False,True,True,IHME estimate masked/unavailable,,1,1.0
+31117,"McPherson County, Nebraska",31,False,False,True,IHME estimate masked/unavailable,,1,1.0
+31171,"Thomas County, Nebraska",31,False,True,True,IHME estimate masked/unavailable,,1,1.0
+31183,"Wheeler County, Nebraska",31,False,False,True,IHME estimate masked/unavailable,,1,1.0
+35021,"Harding County, New Mexico",35,False,True,True,IHME estimate masked/unavailable,,1,1.0
+35059,"Union County, New Mexico",35,False,True,True,,,1,1.0
+32009,"Esmeralda County, Nevada",32,False,False,True,IHME estimate masked/unavailable,,1,1.0
+46017,"Buffalo County, South Dakota",46,True,False,True,,,1,1.0
+48033,"Borden County, Texas",48,False,False,True,IHME estimate masked/unavailable,,1,1.0
+48261,"Kenedy County, Texas",48,False,False,True,IHME estimate masked/unavailable,,1,1.0
+48263,"Kent County, Texas",48,False,True,True,IHME estimate masked/unavailable,,1,1.0
+48269,"King County, Texas",48,False,False,True,IHME estimate masked/unavailable,,1,1.0
+48301,"Loving County, Texas",48,False,False,True,IHME estimate masked/unavailable,,1,1.0
+48311,"McMullen County, Texas",48,False,True,True,IHME estimate masked/unavailable,,1,1.0
+48393,"Roberts County, Texas",48,False,False,True,IHME estimate masked/unavailable,,1,1.0
+48443,"Terrell County, Texas",48,False,True,True,IHME estimate masked/unavailable,,1,1.0

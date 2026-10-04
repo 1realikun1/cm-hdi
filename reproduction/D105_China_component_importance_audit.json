@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "China: 240 held-out cities, 24 provinces",
+  "method": "Joint block permutation within each held-out province; 30 repeats; frozen selected Ridge configurations; component predictions clipped to [0,1]; region-equal MAE",
+  "normalization": "Signed mean MAE increment for a block divided by the sum of the four signed block increments for each target. Negative estimates are retained.",
+  "bootstrap": "10000 province-cluster bootstrap draws, seed 20261002; ratios recomputed in each draw",
+  "source_data": "source://supplementary_data",
+  "source_selection": "source://outer_selection_records.csv",
+  "max_component_prediction_difference": 4.989342272665453e-13,
+  "max_HDI_prediction_difference": 8.79296635503124e-13,
+  "max_D70_permutation_difference": 1.1558254353616348e-12,
+  "max_D69_summary_difference": 8.701372955499664e-15
+}

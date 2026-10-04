@@ -1,0 +1,577 @@
+outer_test_province,family,config_id,record_type,inner_fold,validation_n,province_equal_mae,best_epoch,selected
+130000,Residual MLP,resmlp_64,inner_fold,1,55,0.0193651673530775,45,False
+130000,Residual MLP,resmlp_64,inner_fold,2,56,0.0127093493025452,75,False
+130000,Residual MLP,resmlp_64,inner_fold,3,55,0.0183122680260513,60,False
+130000,Residual MLP,resmlp_64,inner_fold,4,52,0.0194117543811147,85,False
+130000,Residual MLP,resmlp_64,inner_fold,5,51,0.0141817754954572,5,False
+130000,Residual MLP,resmlp_64,pooled_inner,all,269,0.0168948746209349,60,True
+130000,Residual MLP,resmlp_128_reg,inner_fold,1,55,0.0156500566570531,30,False
+130000,Residual MLP,resmlp_128_reg,inner_fold,2,56,0.0152233970408672,5,False
+130000,Residual MLP,resmlp_128_reg,inner_fold,3,55,0.0213673818648419,15,False
+130000,Residual MLP,resmlp_128_reg,inner_fold,4,52,0.0208701651516673,70,False
+130000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0137520215606878,20,False
+130000,Residual MLP,resmlp_128_reg,pooled_inner,all,269,0.01730635261664,20,False
+130000,FT-Transformer,ftt_16,inner_fold,1,55,0.0199930876861489,15,False
+130000,FT-Transformer,ftt_16,inner_fold,2,56,0.0181420730146957,40,False
+130000,FT-Transformer,ftt_16,inner_fold,3,55,0.0289511598507851,15,False
+130000,FT-Transformer,ftt_16,inner_fold,4,52,0.0302207222983279,55,False
+130000,FT-Transformer,ftt_16,inner_fold,5,51,0.0140607299350556,70,False
+130000,FT-Transformer,ftt_16,pooled_inner,all,269,0.022185844292739,40,False
+130000,FT-Transformer,ftt_24_reg,inner_fold,1,55,0.0214583551893158,50,False
+130000,FT-Transformer,ftt_24_reg,inner_fold,2,56,0.0183661119091593,65,False
+130000,FT-Transformer,ftt_24_reg,inner_fold,3,55,0.0211322815780977,115,False
+130000,FT-Transformer,ftt_24_reg,inner_fold,4,52,0.0268978360211849,115,False
+130000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0173363177041212,65,False
+130000,FT-Transformer,ftt_24_reg,pooled_inner,all,269,0.0210543410461043,65,True
+140000,Residual MLP,resmlp_64,inner_fold,1,56,0.0150392698889858,30,False
+140000,Residual MLP,resmlp_64,inner_fold,2,56,0.0140249020656431,5,False
+140000,Residual MLP,resmlp_64,inner_fold,3,55,0.0232693716435878,25,False
+140000,Residual MLP,resmlp_64,inner_fold,4,52,0.0219475447193213,70,False
+140000,Residual MLP,resmlp_64,inner_fold,5,51,0.0142744690908326,60,False
+140000,Residual MLP,resmlp_64,pooled_inner,all,270,0.0176083483434938,30,False
+140000,Residual MLP,resmlp_128_reg,inner_fold,1,56,0.0134044997900681,25,False
+140000,Residual MLP,resmlp_128_reg,inner_fold,2,56,0.0149135765037225,10,False
+140000,Residual MLP,resmlp_128_reg,inner_fold,3,55,0.0197622936940732,15,False
+140000,Residual MLP,resmlp_128_reg,inner_fold,4,52,0.0212099338185787,10,False
+140000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0147302008533288,15,False
+140000,Residual MLP,resmlp_128_reg,pooled_inner,all,270,0.0166733470418817,15,True
+140000,FT-Transformer,ftt_16,inner_fold,1,56,0.0237391698280454,15,False
+140000,FT-Transformer,ftt_16,inner_fold,2,56,0.017674372812025,50,False
+140000,FT-Transformer,ftt_16,inner_fold,3,55,0.0213688315048764,55,False
+140000,FT-Transformer,ftt_16,inner_fold,4,52,0.0255451519336174,100,False
+140000,FT-Transformer,ftt_16,inner_fold,5,51,0.0167697217131418,45,False
+140000,FT-Transformer,ftt_16,pooled_inner,all,270,0.0211240541840991,50,True
+140000,FT-Transformer,ftt_24_reg,inner_fold,1,56,0.02054586475507,50,False
+140000,FT-Transformer,ftt_24_reg,inner_fold,2,56,0.017828601025416,40,False
+140000,FT-Transformer,ftt_24_reg,inner_fold,3,55,0.0295153038338407,15,False
+140000,FT-Transformer,ftt_24_reg,inner_fold,4,52,0.0277030258926323,60,False
+140000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0177692183932615,65,False
+140000,FT-Transformer,ftt_24_reg,pooled_inner,all,270,0.0225906128560066,50,False
+150000,Residual MLP,resmlp_64,inner_fold,1,53,0.0218609237891255,145,False
+150000,Residual MLP,resmlp_64,inner_fold,2,57,0.0188217269458044,10,False
+150000,Residual MLP,resmlp_64,inner_fold,3,55,0.0195785226707832,85,False
+150000,Residual MLP,resmlp_64,inner_fold,4,55,0.0124747502427209,5,False
+150000,Residual MLP,resmlp_64,inner_fold,5,51,0.0182136159221331,10,False
+150000,Residual MLP,resmlp_64,pooled_inner,all,271,0.0179700941575214,10,False
+150000,Residual MLP,resmlp_128_reg,inner_fold,1,53,0.0233648375167475,105,False
+150000,Residual MLP,resmlp_128_reg,inner_fold,2,57,0.0142405353217136,10,False
+150000,Residual MLP,resmlp_128_reg,inner_fold,3,55,0.02121466673349,15,False
+150000,Residual MLP,resmlp_128_reg,inner_fold,4,55,0.0142766959221719,10,False
+150000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0166124098635287,35,False
+150000,Residual MLP,resmlp_128_reg,pooled_inner,all,271,0.0178008624119396,15,True
+150000,FT-Transformer,ftt_16,inner_fold,1,53,0.04115258357272,55,False
+150000,FT-Transformer,ftt_16,inner_fold,2,57,0.0160150480313364,60,False
+150000,FT-Transformer,ftt_16,inner_fold,3,55,0.0228563725456141,40,False
+150000,FT-Transformer,ftt_16,inner_fold,4,55,0.0131408227121933,110,False
+150000,FT-Transformer,ftt_16,inner_fold,5,51,0.0195628487283274,35,False
+150000,FT-Transformer,ftt_16,pooled_inner,all,271,0.0221838154101211,55,False
+150000,FT-Transformer,ftt_24_reg,inner_fold,1,53,0.0299598973057487,55,False
+150000,FT-Transformer,ftt_24_reg,inner_fold,2,57,0.0186371900993812,40,False
+150000,FT-Transformer,ftt_24_reg,inner_fold,3,55,0.0292237636521679,55,False
+150000,FT-Transformer,ftt_24_reg,inner_fold,4,55,0.0135309604932735,60,False
+150000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0173913407016368,65,False
+150000,FT-Transformer,ftt_24_reg,pooled_inner,all,271,0.0214325662213197,55,True
+210000,Residual MLP,resmlp_64,inner_fold,1,55,0.0214136420823279,1,False
+210000,Residual MLP,resmlp_64,inner_fold,2,56,0.0126186643983378,35,False
+210000,Residual MLP,resmlp_64,inner_fold,3,55,0.0133374179386644,55,False
+210000,Residual MLP,resmlp_64,inner_fold,4,49,0.0222124636830035,25,False
+210000,Residual MLP,resmlp_64,inner_fold,5,51,0.0221994378318153,90,False
+210000,Residual MLP,resmlp_64,pooled_inner,all,266,0.0184739142981951,35,False
+210000,Residual MLP,resmlp_128_reg,inner_fold,1,55,0.0187460143700478,45,False
+210000,Residual MLP,resmlp_128_reg,inner_fold,2,56,0.0121498858894964,30,False
+210000,Residual MLP,resmlp_128_reg,inner_fold,3,55,0.0095719980020626,30,False
+210000,Residual MLP,resmlp_128_reg,inner_fold,4,49,0.0249346965700104,20,False
+210000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0237753827889732,115,False
+210000,Residual MLP,resmlp_128_reg,pooled_inner,all,266,0.0178706116335769,30,True
+210000,FT-Transformer,ftt_16,inner_fold,1,55,0.0232218157686884,20,False
+210000,FT-Transformer,ftt_16,inner_fold,2,56,0.0135817042986552,55,False
+210000,FT-Transformer,ftt_16,inner_fold,3,55,0.0154863933249952,70,False
+210000,FT-Transformer,ftt_16,inner_fold,4,49,0.021795007737364,85,False
+210000,FT-Transformer,ftt_16,inner_fold,5,51,0.0316998763379767,15,False
+210000,FT-Transformer,ftt_16,pooled_inner,all,266,0.0212363770425802,55,False
+210000,FT-Transformer,ftt_24_reg,inner_fold,1,55,0.0190129449357116,25,False
+210000,FT-Transformer,ftt_24_reg,inner_fold,2,56,0.0127390746323749,105,False
+210000,FT-Transformer,ftt_24_reg,inner_fold,3,55,0.015484781460199,85,False
+210000,FT-Transformer,ftt_24_reg,inner_fold,4,49,0.0196728185334659,115,False
+210000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0206490156440385,155,False
+210000,FT-Transformer,ftt_24_reg,pooled_inner,all,266,0.0175694661909485,105,True
+220000,Residual MLP,resmlp_64,inner_fold,1,53,0.022599545356928,100,False
+220000,Residual MLP,resmlp_64,inner_fold,2,56,0.0224597719089357,20,False
+220000,Residual MLP,resmlp_64,inner_fold,3,57,0.0155106975442623,35,False
+220000,Residual MLP,resmlp_64,inner_fold,4,55,0.0158093505032908,5,False
+220000,Residual MLP,resmlp_64,inner_fold,5,51,0.0143194483148484,25,False
+220000,Residual MLP,resmlp_64,pooled_inner,all,272,0.0180501314863314,25,True
+220000,Residual MLP,resmlp_128_reg,inner_fold,1,53,0.0225626366651935,30,False
+220000,Residual MLP,resmlp_128_reg,inner_fold,2,56,0.0241372535379005,20,False
+220000,Residual MLP,resmlp_128_reg,inner_fold,3,57,0.0145202621878421,20,False
+220000,Residual MLP,resmlp_128_reg,inner_fold,4,55,0.0138268556565949,5,False
+220000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0162933940085342,15,False
+220000,Residual MLP,resmlp_128_reg,pooled_inner,all,272,0.018097264074497,20,False
+220000,FT-Transformer,ftt_16,inner_fold,1,53,0.0293166858132783,150,False
+220000,FT-Transformer,ftt_16,inner_fold,2,56,0.0232786361237283,55,False
+220000,FT-Transformer,ftt_16,inner_fold,3,57,0.0153539225378727,60,False
+220000,FT-Transformer,ftt_16,inner_fold,4,55,0.0145087749488168,45,False
+220000,FT-Transformer,ftt_16,inner_fold,5,51,0.020877575495016,20,False
+220000,FT-Transformer,ftt_16,pooled_inner,all,272,0.0204302595977837,55,True
+220000,FT-Transformer,ftt_24_reg,inner_fold,1,53,0.0352762503938757,140,False
+220000,FT-Transformer,ftt_24_reg,inner_fold,2,56,0.0238421880735532,145,False
+220000,FT-Transformer,ftt_24_reg,inner_fold,3,57,0.0158559952726551,100,False
+220000,FT-Transformer,ftt_24_reg,inner_fold,4,55,0.0116451200397628,90,False
+220000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0178965047035898,40,False
+220000,FT-Transformer,ftt_24_reg,pooled_inner,all,272,0.0205471312483441,100,False
+230000,Residual MLP,resmlp_64,inner_fold,1,55,0.019430173787995,30,False
+230000,Residual MLP,resmlp_64,inner_fold,2,56,0.0161254566497624,5,False
+230000,Residual MLP,resmlp_64,inner_fold,3,55,0.0220943376102706,55,False
+230000,Residual MLP,resmlp_64,inner_fold,4,52,0.0186612334794038,65,False
+230000,Residual MLP,resmlp_64,inner_fold,5,56,0.0131442675341259,15,False
+230000,Residual MLP,resmlp_64,pooled_inner,all,274,0.0179502891959917,30,True
+230000,Residual MLP,resmlp_128_reg,inner_fold,1,55,0.0194906919822806,15,False
+230000,Residual MLP,resmlp_128_reg,inner_fold,2,56,0.0144765611553117,5,False
+230000,Residual MLP,resmlp_128_reg,inner_fold,3,55,0.0280322876411434,15,False
+230000,Residual MLP,resmlp_128_reg,inner_fold,4,52,0.0214453923720353,65,False
+230000,Residual MLP,resmlp_128_reg,inner_fold,5,56,0.0111647476382844,65,False
+230000,Residual MLP,resmlp_128_reg,pooled_inner,all,274,0.0189438113818291,15,False
+230000,FT-Transformer,ftt_16,inner_fold,1,55,0.0170367433825182,60,False
+230000,FT-Transformer,ftt_16,inner_fold,2,56,0.018316855256926,25,False
+230000,FT-Transformer,ftt_16,inner_fold,3,55,0.0203839444594217,95,False
+230000,FT-Transformer,ftt_16,inner_fold,4,52,0.0228869726699048,130,False
+230000,FT-Transformer,ftt_16,inner_fold,5,56,0.0150919182235974,80,False
+230000,FT-Transformer,ftt_16,pooled_inner,all,274,0.0186776505132446,80,True
+230000,FT-Transformer,ftt_24_reg,inner_fold,1,55,0.0201092421867545,25,False
+230000,FT-Transformer,ftt_24_reg,inner_fold,2,56,0.016940187561825,75,False
+230000,FT-Transformer,ftt_24_reg,inner_fold,3,55,0.0233649308044375,75,False
+230000,FT-Transformer,ftt_24_reg,inner_fold,4,52,0.0397621349485818,10,False
+230000,FT-Transformer,ftt_24_reg,inner_fold,5,56,0.0148557491047558,65,False
+230000,FT-Transformer,ftt_24_reg,pooled_inner,all,274,0.0228950178930203,65,False
+350000,Residual MLP,resmlp_64,inner_fold,1,53,0.0220815205068299,45,False
+350000,Residual MLP,resmlp_64,inner_fold,2,57,0.0126089849281236,50,False
+350000,Residual MLP,resmlp_64,inner_fold,3,55,0.0191738887970875,20,False
+350000,Residual MLP,resmlp_64,inner_fold,4,55,0.0154513938031929,20,False
+350000,Residual MLP,resmlp_64,inner_fold,5,51,0.0147757205283074,70,False
+350000,Residual MLP,resmlp_64,pooled_inner,all,271,0.016765728331573,45,True
+350000,Residual MLP,resmlp_128_reg,inner_fold,1,53,0.0251224091041655,55,False
+350000,Residual MLP,resmlp_128_reg,inner_fold,2,57,0.0109962690291519,40,False
+350000,Residual MLP,resmlp_128_reg,inner_fold,3,55,0.0237779889230203,30,False
+350000,Residual MLP,resmlp_128_reg,inner_fold,4,55,0.0160931504654032,5,False
+350000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0140572312908513,120,False
+350000,Residual MLP,resmlp_128_reg,pooled_inner,all,271,0.0179357074818602,40,False
+350000,FT-Transformer,ftt_16,inner_fold,1,53,0.0336714673674468,55,False
+350000,FT-Transformer,ftt_16,inner_fold,2,57,0.0152512249417516,55,False
+350000,FT-Transformer,ftt_16,inner_fold,3,55,0.0237514254692704,100,False
+350000,FT-Transformer,ftt_16,inner_fold,4,55,0.0142203975708324,45,False
+350000,FT-Transformer,ftt_16,inner_fold,5,51,0.0190362195601917,10,False
+350000,FT-Transformer,ftt_16,pooled_inner,all,271,0.0209182335430114,55,False
+350000,FT-Transformer,ftt_24_reg,inner_fold,1,53,0.0357654571374257,90,False
+350000,FT-Transformer,ftt_24_reg,inner_fold,2,57,0.0139779398384627,65,False
+350000,FT-Transformer,ftt_24_reg,inner_fold,3,55,0.0199919297334187,155,False
+350000,FT-Transformer,ftt_24_reg,inner_fold,4,55,0.0152087881810479,115,False
+350000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.017298686423472,45,False
+350000,FT-Transformer,ftt_24_reg,pooled_inner,all,271,0.0202470305673147,90,True
+360000,Residual MLP,resmlp_64,inner_fold,1,55,0.0149126778450276,30,False
+360000,Residual MLP,resmlp_64,inner_fold,2,56,0.0136725399911728,25,False
+360000,Residual MLP,resmlp_64,inner_fold,3,55,0.019007100133939,20,False
+360000,Residual MLP,resmlp_64,inner_fold,4,52,0.0190622124928932,95,False
+360000,Residual MLP,resmlp_64,inner_fold,5,51,0.0150879879054569,85,False
+360000,Residual MLP,resmlp_64,pooled_inner,all,269,0.0162932796033644,30,True
+360000,Residual MLP,resmlp_128_reg,inner_fold,1,55,0.0170105660303244,15,False
+360000,Residual MLP,resmlp_128_reg,inner_fold,2,56,0.0123461359227231,70,False
+360000,Residual MLP,resmlp_128_reg,inner_fold,3,55,0.022943238350144,25,False
+360000,Residual MLP,resmlp_128_reg,inner_fold,4,52,0.0256158875429011,15,False
+360000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0131855933968036,15,False
+360000,Residual MLP,resmlp_128_reg,pooled_inner,all,269,0.0181737566248002,15,False
+360000,FT-Transformer,ftt_16,inner_fold,1,55,0.0190918247280613,40,False
+360000,FT-Transformer,ftt_16,inner_fold,2,56,0.0130404600687997,80,False
+360000,FT-Transformer,ftt_16,inner_fold,3,55,0.0281831863079243,35,False
+360000,FT-Transformer,ftt_16,inner_fold,4,52,0.0413259678929967,5,False
+360000,FT-Transformer,ftt_16,inner_fold,5,51,0.0182187890396231,60,False
+360000,FT-Transformer,ftt_16,pooled_inner,all,269,0.0237843448044264,40,False
+360000,FT-Transformer,ftt_24_reg,inner_fold,1,55,0.0190712050941255,40,False
+360000,FT-Transformer,ftt_24_reg,inner_fold,2,56,0.014037849475739,50,False
+360000,FT-Transformer,ftt_24_reg,inner_fold,3,55,0.0238922547275016,115,False
+360000,FT-Transformer,ftt_24_reg,inner_fold,4,52,0.0320922445693728,65,False
+360000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0177911697818173,55,False
+360000,FT-Transformer,ftt_24_reg,pooled_inner,all,269,0.0212882624360349,55,True
+370000,Residual MLP,resmlp_64,inner_fold,1,55,0.0120801264823429,35,False
+370000,Residual MLP,resmlp_64,inner_fold,2,46,0.0267209302372402,10,False
+370000,Residual MLP,resmlp_64,inner_fold,3,54,0.0249306818007991,10,False
+370000,Residual MLP,resmlp_64,inner_fold,4,55,0.0109844715954262,45,False
+370000,Residual MLP,resmlp_64,inner_fold,5,54,0.0149179829726281,5,False
+370000,Residual MLP,resmlp_64,pooled_inner,all,264,0.0177019650740202,10,False
+370000,Residual MLP,resmlp_128_reg,inner_fold,1,55,0.0172897733021349,30,False
+370000,Residual MLP,resmlp_128_reg,inner_fold,2,46,0.0252077064302232,30,False
+370000,Residual MLP,resmlp_128_reg,inner_fold,3,54,0.0190728437391527,40,False
+370000,Residual MLP,resmlp_128_reg,inner_fold,4,55,0.0117114527606881,55,False
+370000,Residual MLP,resmlp_128_reg,inner_fold,5,54,0.0118580221158808,40,False
+370000,Residual MLP,resmlp_128_reg,pooled_inner,all,264,0.0170380294247128,40,True
+370000,FT-Transformer,ftt_16,inner_fold,1,55,0.0221519396367527,10,False
+370000,FT-Transformer,ftt_16,inner_fold,2,46,0.0331610587596893,30,False
+370000,FT-Transformer,ftt_16,inner_fold,3,54,0.0189403754386466,115,False
+370000,FT-Transformer,ftt_16,inner_fold,4,55,0.0118503302731667,70,False
+370000,FT-Transformer,ftt_16,inner_fold,5,54,0.0135452511548376,35,False
+370000,FT-Transformer,ftt_16,pooled_inner,all,264,0.0200152583058545,35,False
+370000,FT-Transformer,ftt_24_reg,inner_fold,1,55,0.0190155938686832,20,False
+370000,FT-Transformer,ftt_24_reg,inner_fold,2,46,0.0234614237917794,45,False
+370000,FT-Transformer,ftt_24_reg,inner_fold,3,54,0.0179635403093895,105,False
+370000,FT-Transformer,ftt_24_reg,inner_fold,4,55,0.0119504849734191,95,False
+370000,FT-Transformer,ftt_24_reg,inner_fold,5,54,0.0180674945120378,40,False
+370000,FT-Transformer,ftt_24_reg,pooled_inner,all,264,0.0181272415825088,45,True
+410000,Residual MLP,resmlp_64,inner_fold,1,53,0.0175464272058577,15,False
+410000,Residual MLP,resmlp_64,inner_fold,2,54,0.0207313345687317,30,False
+410000,Residual MLP,resmlp_64,inner_fold,3,55,0.0109749226694062,35,False
+410000,Residual MLP,resmlp_64,inner_fold,4,49,0.0167108566541141,15,False
+410000,Residual MLP,resmlp_64,inner_fold,5,52,0.0240373527650709,10,False
+410000,Residual MLP,resmlp_64,pooled_inner,all,263,0.0182323777723452,15,False
+410000,Residual MLP,resmlp_128_reg,inner_fold,1,53,0.0134857907230513,30,False
+410000,Residual MLP,resmlp_128_reg,inner_fold,2,54,0.0219018060325613,20,False
+410000,Residual MLP,resmlp_128_reg,inner_fold,3,55,0.0108860437092571,75,False
+410000,Residual MLP,resmlp_128_reg,inner_fold,4,49,0.0133159734968548,75,False
+410000,Residual MLP,resmlp_128_reg,inner_fold,5,52,0.0260801965456504,15,False
+410000,Residual MLP,resmlp_128_reg,pooled_inner,all,263,0.0174780480416356,30,True
+410000,FT-Transformer,ftt_16,inner_fold,1,53,0.0207306628670011,15,False
+410000,FT-Transformer,ftt_16,inner_fold,2,54,0.020560480141134,85,False
+410000,FT-Transformer,ftt_16,inner_fold,3,55,0.0146999136306744,40,False
+410000,FT-Transformer,ftt_16,inner_fold,4,49,0.0170308928334814,30,False
+410000,FT-Transformer,ftt_16,inner_fold,5,52,0.0252995748026546,45,False
+410000,FT-Transformer,ftt_16,pooled_inner,all,263,0.0198810460068224,40,True
+410000,FT-Transformer,ftt_24_reg,inner_fold,1,53,0.0214294772362709,15,False
+410000,FT-Transformer,ftt_24_reg,inner_fold,2,54,0.0220517318822157,120,False
+410000,FT-Transformer,ftt_24_reg,inner_fold,3,55,0.0137834919620551,40,False
+410000,FT-Transformer,ftt_24_reg,inner_fold,4,49,0.0201261891484871,35,False
+410000,FT-Transformer,ftt_24_reg,inner_fold,5,52,0.0249422401264116,85,False
+410000,FT-Transformer,ftt_24_reg,pooled_inner,all,263,0.0206387650732159,40,False
+420000,Residual MLP,resmlp_64,inner_fold,1,55,0.0147801147218734,30,False
+420000,Residual MLP,resmlp_64,inner_fold,2,55,0.0208987556769538,30,False
+420000,Residual MLP,resmlp_64,inner_fold,3,52,0.0227401458857766,55,False
+420000,Residual MLP,resmlp_64,inner_fold,4,56,0.015128034621976,30,False
+420000,Residual MLP,resmlp_64,inner_fold,5,50,0.0137943212964042,5,False
+420000,Residual MLP,resmlp_64,pooled_inner,all,268,0.0173648836821844,30,True
+420000,Residual MLP,resmlp_128_reg,inner_fold,1,55,0.0167633721638293,45,False
+420000,Residual MLP,resmlp_128_reg,inner_fold,2,55,0.0216461124484967,35,False
+420000,Residual MLP,resmlp_128_reg,inner_fold,3,52,0.0216569985178614,115,False
+420000,Residual MLP,resmlp_128_reg,inner_fold,4,56,0.0136867111340832,15,False
+420000,Residual MLP,resmlp_128_reg,inner_fold,5,50,0.0150275243329812,5,False
+420000,Residual MLP,resmlp_128_reg,pooled_inner,all,268,0.0177179601980803,35,False
+420000,FT-Transformer,ftt_16,inner_fold,1,55,0.016643988242225,55,False
+420000,FT-Transformer,ftt_16,inner_fold,2,55,0.0231573104168744,70,False
+420000,FT-Transformer,ftt_16,inner_fold,3,52,0.0266915274290055,95,False
+420000,FT-Transformer,ftt_16,inner_fold,4,56,0.0147043365472495,55,False
+420000,FT-Transformer,ftt_16,inner_fold,5,50,0.0138486686751577,30,False
+420000,FT-Transformer,ftt_16,pooled_inner,all,268,0.0189181978767225,55,True
+420000,FT-Transformer,ftt_24_reg,inner_fold,1,55,0.0227598703280328,20,False
+420000,FT-Transformer,ftt_24_reg,inner_fold,2,55,0.0237828446118648,105,False
+420000,FT-Transformer,ftt_24_reg,inner_fold,3,52,0.0337018176506243,50,False
+420000,FT-Transformer,ftt_24_reg,inner_fold,4,56,0.0165314226005759,30,False
+420000,FT-Transformer,ftt_24_reg,inner_fold,5,50,0.0154414774546168,70,False
+420000,FT-Transformer,ftt_24_reg,pooled_inner,all,268,0.0224556551367925,50,False
+430000,Residual MLP,resmlp_64,inner_fold,1,55,0.0182680794307164,5,False
+430000,Residual MLP,resmlp_64,inner_fold,2,52,0.0224262964751022,50,False
+430000,Residual MLP,resmlp_64,inner_fold,3,56,0.0109372830512498,45,False
+430000,Residual MLP,resmlp_64,inner_fold,4,50,0.0147633724945689,35,False
+430000,Residual MLP,resmlp_64,inner_fold,5,54,0.0225722964338513,35,False
+430000,Residual MLP,resmlp_64,pooled_inner,all,267,0.017811719956083,35,False
+430000,Residual MLP,resmlp_128_reg,inner_fold,1,55,0.0148603950617805,40,False
+430000,Residual MLP,resmlp_128_reg,inner_fold,2,52,0.019449557927883,85,False
+430000,Residual MLP,resmlp_128_reg,inner_fold,3,56,0.0098512708274541,25,False
+430000,Residual MLP,resmlp_128_reg,inner_fold,4,50,0.0124423652675038,20,False
+430000,Residual MLP,resmlp_128_reg,inner_fold,5,54,0.0221954422153281,75,False
+430000,Residual MLP,resmlp_128_reg,pooled_inner,all,267,0.0157252135215972,40,True
+430000,FT-Transformer,ftt_16,inner_fold,1,55,0.0200649208951564,55,False
+430000,FT-Transformer,ftt_16,inner_fold,2,52,0.02846684404325,115,False
+430000,FT-Transformer,ftt_16,inner_fold,3,56,0.0133614275753576,100,False
+430000,FT-Transformer,ftt_16,inner_fold,4,50,0.0158744150030045,90,False
+430000,FT-Transformer,ftt_16,inner_fold,5,54,0.0217300724892802,95,False
+430000,FT-Transformer,ftt_16,pooled_inner,all,267,0.0199058969586692,95,True
+430000,FT-Transformer,ftt_24_reg,inner_fold,1,55,0.0220407988651404,15,False
+430000,FT-Transformer,ftt_24_reg,inner_fold,2,52,0.0398887646388526,5,False
+430000,FT-Transformer,ftt_24_reg,inner_fold,3,56,0.0107676109887939,135,False
+430000,FT-Transformer,ftt_24_reg,inner_fold,4,50,0.0199679406323698,35,False
+430000,FT-Transformer,ftt_24_reg,inner_fold,5,54,0.0271672347549339,30,False
+430000,FT-Transformer,ftt_24_reg,pooled_inner,all,267,0.0238924057025228,30,False
+440000,Residual MLP,resmlp_64,inner_fold,1,54,0.020634768471188,5,False
+440000,Residual MLP,resmlp_64,inner_fold,2,54,0.0094073659673675,95,False
+440000,Residual MLP,resmlp_64,inner_fold,3,45,0.0241120764574943,25,False
+440000,Residual MLP,resmlp_64,inner_fold,4,53,0.0182844787600073,25,False
+440000,Residual MLP,resmlp_64,inner_fold,5,53,0.0168032030191256,5,False
+440000,Residual MLP,resmlp_64,pooled_inner,all,259,0.0178081794767323,25,False
+440000,Residual MLP,resmlp_128_reg,inner_fold,1,54,0.0156180752166112,5,False
+440000,Residual MLP,resmlp_128_reg,inner_fold,2,54,0.0090187502463233,100,False
+440000,Residual MLP,resmlp_128_reg,inner_fold,3,45,0.022918319916827,25,False
+440000,Residual MLP,resmlp_128_reg,inner_fold,4,53,0.0218050386917841,45,False
+440000,Residual MLP,resmlp_128_reg,inner_fold,5,53,0.0145906203479477,30,False
+440000,Residual MLP,resmlp_128_reg,pooled_inner,all,259,0.0167055631709775,30,True
+440000,FT-Transformer,ftt_16,inner_fold,1,54,0.017501291964319,100,False
+440000,FT-Transformer,ftt_16,inner_fold,2,54,0.0159774700984512,50,False
+440000,FT-Transformer,ftt_16,inner_fold,3,45,0.024927748429062,50,False
+440000,FT-Transformer,ftt_16,inner_fold,4,53,0.0207536897843034,100,False
+440000,FT-Transformer,ftt_16,inner_fold,5,53,0.0197312228795254,30,False
+440000,FT-Transformer,ftt_16,pooled_inner,all,259,0.0197764745637627,50,False
+440000,FT-Transformer,ftt_24_reg,inner_fold,1,54,0.0144576779320505,155,False
+440000,FT-Transformer,ftt_24_reg,inner_fold,2,54,0.0148886634472899,40,False
+440000,FT-Transformer,ftt_24_reg,inner_fold,3,45,0.0263254920996661,115,False
+440000,FT-Transformer,ftt_24_reg,inner_fold,4,53,0.0219530647730827,100,False
+440000,FT-Transformer,ftt_24_reg,inner_fold,5,53,0.0186574757432525,25,False
+440000,FT-Transformer,ftt_24_reg,pooled_inner,all,259,0.0192334363738447,100,True
+450000,Residual MLP,resmlp_64,inner_fold,1,55,0.012033745660006,55,False
+450000,Residual MLP,resmlp_64,inner_fold,2,56,0.0143192461016202,25,False
+450000,Residual MLP,resmlp_64,inner_fold,3,50,0.014230500709875,20,False
+450000,Residual MLP,resmlp_64,inner_fold,4,54,0.0248749579765425,25,False
+450000,Residual MLP,resmlp_64,inner_fold,5,51,0.0223605346399587,50,False
+450000,Residual MLP,resmlp_64,pooled_inner,all,266,0.0173511027346161,25,False
+450000,Residual MLP,resmlp_128_reg,inner_fold,1,55,0.0135130419849403,65,False
+450000,Residual MLP,resmlp_128_reg,inner_fold,2,56,0.0166155536247022,10,False
+450000,Residual MLP,resmlp_128_reg,inner_fold,3,50,0.011303115356358,20,False
+450000,Residual MLP,resmlp_128_reg,inner_fold,4,54,0.0175920920482084,65,False
+450000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0240950117407562,75,False
+450000,Residual MLP,resmlp_128_reg,pooled_inner,all,266,0.0165041198369141,65,True
+450000,FT-Transformer,ftt_16,inner_fold,1,55,0.0222970301324413,10,False
+450000,FT-Transformer,ftt_16,inner_fold,2,56,0.0126357840109353,80,False
+450000,FT-Transformer,ftt_16,inner_fold,3,50,0.0134895774659299,40,False
+450000,FT-Transformer,ftt_16,inner_fold,4,54,0.0223872680256274,90,False
+450000,FT-Transformer,ftt_16,inner_fold,5,51,0.0321549058474694,35,False
+450000,FT-Transformer,ftt_16,pooled_inner,all,266,0.0206584560594022,40,True
+450000,FT-Transformer,ftt_24_reg,inner_fold,1,55,0.0228071160038312,30,False
+450000,FT-Transformer,ftt_24_reg,inner_fold,2,56,0.0145727105420045,130,False
+450000,FT-Transformer,ftt_24_reg,inner_fold,3,50,0.0155455877963305,55,False
+450000,FT-Transformer,ftt_24_reg,inner_fold,4,54,0.0218104462175555,100,False
+450000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0313213108491981,55,False
+450000,FT-Transformer,ftt_24_reg,pooled_inner,all,266,0.0212728066557089,55,False
+460000,Residual MLP,resmlp_64,inner_fold,1,56,0.0152402121285029,40,False
+460000,Residual MLP,resmlp_64,inner_fold,2,59,0.0162023380935794,35,False
+460000,Residual MLP,resmlp_64,inner_fold,3,56,0.0199796309374828,45,False
+460000,Residual MLP,resmlp_64,inner_fold,4,55,0.0229527232531474,20,False
+460000,Residual MLP,resmlp_64,inner_fold,5,52,0.0142038616666907,65,False
+460000,Residual MLP,resmlp_64,pooled_inner,all,278,0.0179171751403909,40,True
+460000,Residual MLP,resmlp_128_reg,inner_fold,1,56,0.0183220211569468,25,False
+460000,Residual MLP,resmlp_128_reg,inner_fold,2,59,0.0135291101532845,75,False
+460000,Residual MLP,resmlp_128_reg,inner_fold,3,56,0.0201123515804357,15,False
+460000,Residual MLP,resmlp_128_reg,inner_fold,4,55,0.0251535032524433,45,False
+460000,Residual MLP,resmlp_128_reg,inner_fold,5,52,0.0154400269897211,20,False
+460000,Residual MLP,resmlp_128_reg,pooled_inner,all,278,0.0187668680352539,25,False
+460000,FT-Transformer,ftt_16,inner_fold,1,56,0.0169510984286807,70,False
+460000,FT-Transformer,ftt_16,inner_fold,2,59,0.0171965072416851,45,False
+460000,FT-Transformer,ftt_16,inner_fold,3,56,0.0210424549858986,70,False
+460000,FT-Transformer,ftt_16,inner_fold,4,55,0.0262340415647793,35,False
+460000,FT-Transformer,ftt_16,inner_fold,5,52,0.0171693845089276,60,False
+460000,FT-Transformer,ftt_16,pooled_inner,all,278,0.0199692875082552,60,False
+460000,FT-Transformer,ftt_24_reg,inner_fold,1,56,0.0152513673558688,155,False
+460000,FT-Transformer,ftt_24_reg,inner_fold,2,59,0.0130476355189302,90,False
+460000,FT-Transformer,ftt_24_reg,inner_fold,3,56,0.0200943078755445,80,False
+460000,FT-Transformer,ftt_24_reg,inner_fold,4,55,0.0281423664620041,60,False
+460000,FT-Transformer,ftt_24_reg,inner_fold,5,52,0.0197658527804556,35,False
+460000,FT-Transformer,ftt_24_reg,pooled_inner,all,278,0.0196019237086931,80,True
+510000,Residual MLP,resmlp_64,inner_fold,1,53,0.0137657845466477,35,False
+510000,Residual MLP,resmlp_64,inner_fold,2,55,0.0101346150661888,30,False
+510000,Residual MLP,resmlp_64,inner_fold,3,49,0.0150555262884421,10,False
+510000,Residual MLP,resmlp_64,inner_fold,4,53,0.0205226540513472,40,False
+510000,Residual MLP,resmlp_64,inner_fold,5,52,0.0207486697187671,25,False
+510000,Residual MLP,resmlp_64,pooled_inner,all,262,0.0162263430029128,30,True
+510000,Residual MLP,resmlp_128_reg,inner_fold,1,53,0.015125741914681,30,False
+510000,Residual MLP,resmlp_128_reg,inner_fold,2,55,0.0109815991893951,15,False
+510000,Residual MLP,resmlp_128_reg,inner_fold,3,49,0.0145854153100547,10,False
+510000,Residual MLP,resmlp_128_reg,inner_fold,4,53,0.019342604130098,25,False
+510000,Residual MLP,resmlp_128_reg,inner_fold,5,52,0.0232696244221229,10,False
+510000,Residual MLP,resmlp_128_reg,pooled_inner,all,262,0.0169151749713031,15,False
+510000,FT-Transformer,ftt_16,inner_fold,1,53,0.0178517144474529,20,False
+510000,FT-Transformer,ftt_16,inner_fold,2,55,0.0133963112656304,75,False
+510000,FT-Transformer,ftt_16,inner_fold,3,49,0.0132073629108453,55,False
+510000,FT-Transformer,ftt_16,inner_fold,4,53,0.0230232111494357,60,False
+510000,FT-Transformer,ftt_16,inner_fold,5,52,0.0243439765543133,135,False
+510000,FT-Transformer,ftt_16,pooled_inner,all,262,0.0185944945458731,60,True
+510000,FT-Transformer,ftt_24_reg,inner_fold,1,53,0.0187073877761477,35,False
+510000,FT-Transformer,ftt_24_reg,inner_fold,2,55,0.0122031518811777,100,False
+510000,FT-Transformer,ftt_24_reg,inner_fold,3,49,0.0167114558873013,40,False
+510000,FT-Transformer,ftt_24_reg,inner_fold,4,53,0.0253321071511882,40,False
+510000,FT-Transformer,ftt_24_reg,inner_fold,5,52,0.0346888887321794,10,False
+510000,FT-Transformer,ftt_24_reg,pooled_inner,all,262,0.022034763302775,40,False
+520000,Residual MLP,resmlp_64,inner_fold,1,52,0.0281317805508204,20,False
+520000,Residual MLP,resmlp_64,inner_fold,2,59,0.0151725582561571,20,False
+520000,Residual MLP,resmlp_64,inner_fold,3,56,0.0214454257900526,75,False
+520000,Residual MLP,resmlp_64,inner_fold,4,56,0.0143947833570051,20,False
+520000,Residual MLP,resmlp_64,inner_fold,5,51,0.0139365644695645,70,False
+520000,Residual MLP,resmlp_64,pooled_inner,all,274,0.0184538594413463,20,False
+520000,Residual MLP,resmlp_128_reg,inner_fold,1,52,0.0244974243751026,25,False
+520000,Residual MLP,resmlp_128_reg,inner_fold,2,59,0.0146514053100287,20,False
+520000,Residual MLP,resmlp_128_reg,inner_fold,3,56,0.0190450124495997,30,False
+520000,Residual MLP,resmlp_128_reg,inner_fold,4,56,0.0131173920484977,40,False
+520000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0160257899216243,10,False
+520000,Residual MLP,resmlp_128_reg,pooled_inner,all,274,0.0173000966374139,25,True
+520000,FT-Transformer,ftt_16,inner_fold,1,52,0.0320952165852274,45,False
+520000,FT-Transformer,ftt_16,inner_fold,2,59,0.0150350757624627,80,False
+520000,FT-Transformer,ftt_16,inner_fold,3,56,0.0200159405087705,80,False
+520000,FT-Transformer,ftt_16,inner_fold,4,56,0.0154518868312949,45,False
+520000,FT-Transformer,ftt_16,inner_fold,5,51,0.0166784151600656,30,False
+520000,FT-Transformer,ftt_16,pooled_inner,all,274,0.0196859446565538,45,True
+520000,FT-Transformer,ftt_24_reg,inner_fold,1,52,0.0336124978372029,20,False
+520000,FT-Transformer,ftt_24_reg,inner_fold,2,59,0.0152466272796877,85,False
+520000,FT-Transformer,ftt_24_reg,inner_fold,3,56,0.0187882830342268,120,False
+520000,FT-Transformer,ftt_24_reg,inner_fold,4,56,0.0158570560489124,50,False
+520000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0185555839742365,45,False
+520000,FT-Transformer,ftt_24_reg,pooled_inner,all,274,0.0202368191123171,50,False
+530000,Residual MLP,resmlp_64,inner_fold,1,52,0.0230547397950717,30,False
+530000,Residual MLP,resmlp_64,inner_fold,2,56,0.0208930906138535,20,False
+530000,Residual MLP,resmlp_64,inner_fold,3,57,0.0127836333692223,45,False
+530000,Residual MLP,resmlp_64,inner_fold,4,56,0.0174257750287329,10,False
+530000,Residual MLP,resmlp_64,inner_fold,5,51,0.0152889125511759,10,False
+530000,Residual MLP,resmlp_64,pooled_inner,all,272,0.0178714050699621,20,True
+530000,Residual MLP,resmlp_128_reg,inner_fold,1,52,0.0304232820462045,65,False
+530000,Residual MLP,resmlp_128_reg,inner_fold,2,56,0.0204122704508366,5,False
+530000,Residual MLP,resmlp_128_reg,inner_fold,3,57,0.0141412860741982,55,False
+530000,Residual MLP,resmlp_128_reg,inner_fold,4,56,0.0139217139807614,20,False
+530000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0123527685869308,95,False
+530000,Residual MLP,resmlp_128_reg,pooled_inner,all,272,0.0180837815259776,55,False
+530000,FT-Transformer,ftt_16,inner_fold,1,52,0.0315242203798748,120,False
+530000,FT-Transformer,ftt_16,inner_fold,2,56,0.0220619096165251,30,False
+530000,FT-Transformer,ftt_16,inner_fold,3,57,0.0144947688523101,65,False
+530000,FT-Transformer,ftt_16,inner_fold,4,56,0.0169808293760983,25,False
+530000,FT-Transformer,ftt_16,inner_fold,5,51,0.0198750556592147,30,False
+530000,FT-Transformer,ftt_16,pooled_inner,all,272,0.0208332595690851,30,False
+530000,FT-Transformer,ftt_24_reg,inner_fold,1,52,0.0321040073893183,115,False
+530000,FT-Transformer,ftt_24_reg,inner_fold,2,56,0.0219547711992745,60,False
+530000,FT-Transformer,ftt_24_reg,inner_fold,3,57,0.0151086483349806,105,False
+530000,FT-Transformer,ftt_24_reg,inner_fold,4,56,0.0152934976540732,85,False
+530000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0170862757130463,70,False
+530000,FT-Transformer,ftt_24_reg,pooled_inner,all,272,0.0201165191964438,85,True
+540000,Residual MLP,resmlp_64,inner_fold,1,52,0.0289229401893843,80,False
+540000,Residual MLP,resmlp_64,inner_fold,2,59,0.0142969777694763,5,False
+540000,Residual MLP,resmlp_64,inner_fold,3,57,0.0134774078003062,15,False
+540000,Residual MLP,resmlp_64,inner_fold,4,56,0.0170906678482696,30,False
+540000,Residual MLP,resmlp_64,inner_fold,5,51,0.0149251884149937,30,False
+540000,Residual MLP,resmlp_64,pooled_inner,all,275,0.0177175606907854,30,False
+540000,Residual MLP,resmlp_128_reg,inner_fold,1,52,0.0305399096454892,40,False
+540000,Residual MLP,resmlp_128_reg,inner_fold,2,59,0.0197572016108471,25,False
+540000,Residual MLP,resmlp_128_reg,inner_fold,3,57,0.0106992873619764,15,False
+540000,Residual MLP,resmlp_128_reg,inner_fold,4,56,0.0142946557372937,20,False
+540000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0124955451955681,90,False
+540000,Residual MLP,resmlp_128_reg,pooled_inner,all,275,0.0174318328266603,25,True
+540000,FT-Transformer,ftt_16,inner_fold,1,52,0.0338205432097117,40,False
+540000,FT-Transformer,ftt_16,inner_fold,2,59,0.0172931324053199,115,False
+540000,FT-Transformer,ftt_16,inner_fold,3,57,0.0155334939763676,105,False
+540000,FT-Transformer,ftt_16,inner_fold,4,56,0.0139153056578203,130,False
+540000,FT-Transformer,ftt_16,inner_fold,5,51,0.0165235487980502,60,False
+540000,FT-Transformer,ftt_16,pooled_inner,all,275,0.0192055933036219,105,True
+540000,FT-Transformer,ftt_24_reg,inner_fold,1,52,0.0315536600352469,45,False
+540000,FT-Transformer,ftt_24_reg,inner_fold,2,59,0.0170427554731232,75,False
+540000,FT-Transformer,ftt_24_reg,inner_fold,3,57,0.016007604516002,55,False
+540000,FT-Transformer,ftt_24_reg,inner_fold,4,56,0.0212388536673345,20,False
+540000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0164649565131323,100,False
+540000,FT-Transformer,ftt_24_reg,pooled_inner,all,275,0.020491461718905,55,False
+610000,Residual MLP,resmlp_64,inner_fold,1,52,0.0276029207833608,55,False
+610000,Residual MLP,resmlp_64,inner_fold,2,56,0.0162273844409934,5,False
+610000,Residual MLP,resmlp_64,inner_fold,3,55,0.0250003065400102,25,False
+610000,Residual MLP,resmlp_64,inner_fold,4,56,0.0144736777254384,20,False
+610000,Residual MLP,resmlp_64,inner_fold,5,51,0.0134186665376027,45,False
+610000,Residual MLP,resmlp_64,pooled_inner,all,270,0.0191572483793256,25,False
+610000,Residual MLP,resmlp_128_reg,inner_fold,1,52,0.0238668873652957,30,False
+610000,Residual MLP,resmlp_128_reg,inner_fold,2,56,0.0116641038251682,125,False
+610000,Residual MLP,resmlp_128_reg,inner_fold,3,55,0.024377011563742,135,False
+610000,Residual MLP,resmlp_128_reg,inner_fold,4,56,0.0154009383585288,20,False
+610000,Residual MLP,resmlp_128_reg,inner_fold,5,51,0.0143726998138049,25,False
+610000,Residual MLP,resmlp_128_reg,pooled_inner,all,270,0.0178388131919703,30,True
+610000,FT-Transformer,ftt_16,inner_fold,1,52,0.0383185290945144,60,False
+610000,FT-Transformer,ftt_16,inner_fold,2,56,0.0163425547451146,30,False
+610000,FT-Transformer,ftt_16,inner_fold,3,55,0.0261166549716348,50,False
+610000,FT-Transformer,ftt_16,inner_fold,4,56,0.0158685613130723,30,False
+610000,FT-Transformer,ftt_16,inner_fold,5,51,0.0145348614288701,90,False
+610000,FT-Transformer,ftt_16,pooled_inner,all,270,0.0219913218876578,50,True
+610000,FT-Transformer,ftt_24_reg,inner_fold,1,52,0.0449631726377351,10,False
+610000,FT-Transformer,ftt_24_reg,inner_fold,2,56,0.0140072403530603,40,False
+610000,FT-Transformer,ftt_24_reg,inner_fold,3,55,0.0246781628998228,25,False
+610000,FT-Transformer,ftt_24_reg,inner_fold,4,56,0.0152833739541052,85,False
+610000,FT-Transformer,ftt_24_reg,inner_fold,5,51,0.0150837385921251,75,False
+610000,FT-Transformer,ftt_24_reg,pooled_inner,all,270,0.022513916005321,40,False
+620000,Residual MLP,resmlp_64,inner_fold,1,55,0.0133649551698139,40,False
+620000,Residual MLP,resmlp_64,inner_fold,2,55,0.0232073455429244,20,False
+620000,Residual MLP,resmlp_64,inner_fold,3,52,0.0268831243645845,50,False
+620000,Residual MLP,resmlp_64,inner_fold,4,56,0.0146939296637176,45,False
+620000,Residual MLP,resmlp_64,inner_fold,5,50,0.0125926633376923,20,False
+620000,Residual MLP,resmlp_64,pooled_inner,all,268,0.0179644248293645,40,True
+620000,Residual MLP,resmlp_128_reg,inner_fold,1,55,0.0205321142785132,50,False
+620000,Residual MLP,resmlp_128_reg,inner_fold,2,55,0.0204495217767758,20,False
+620000,Residual MLP,resmlp_128_reg,inner_fold,3,52,0.0239306602397606,15,False
+620000,Residual MLP,resmlp_128_reg,inner_fold,4,56,0.0131912715587867,30,False
+620000,Residual MLP,resmlp_128_reg,inner_fold,5,50,0.012044214692532,20,False
+620000,Residual MLP,resmlp_128_reg,pooled_inner,all,268,0.0181258087311675,20,False
+620000,FT-Transformer,ftt_16,inner_fold,1,55,0.0226201434592406,25,False
+620000,FT-Transformer,ftt_16,inner_fold,2,55,0.0211340221391653,160,False
+620000,FT-Transformer,ftt_16,inner_fold,3,52,0.0276998710836162,30,False
+620000,FT-Transformer,ftt_16,inner_fold,4,56,0.0171889853209472,75,False
+620000,FT-Transformer,ftt_16,inner_fold,5,50,0.01640753811068,40,False
+620000,FT-Transformer,ftt_16,pooled_inner,all,268,0.0210720363087495,40,True
+620000,FT-Transformer,ftt_24_reg,inner_fold,1,55,0.0157090718826604,60,False
+620000,FT-Transformer,ftt_24_reg,inner_fold,2,55,0.0222997778080245,90,False
+620000,FT-Transformer,ftt_24_reg,inner_fold,3,52,0.0374796098849039,5,False
+620000,FT-Transformer,ftt_24_reg,inner_fold,4,56,0.0156198370951164,60,False
+620000,FT-Transformer,ftt_24_reg,inner_fold,5,50,0.0165320018521755,80,False
+620000,FT-Transformer,ftt_24_reg,pooled_inner,all,268,0.0213042524806563,60,False
+630000,Residual MLP,resmlp_64,inner_fold,1,56,0.0141030486746061,45,False
+630000,Residual MLP,resmlp_64,inner_fold,2,59,0.0146834393597057,25,False
+630000,Residual MLP,resmlp_64,inner_fold,3,56,0.0201555225211379,80,False
+630000,Residual MLP,resmlp_64,inner_fold,4,55,0.0248296967793207,15,False
+630000,Residual MLP,resmlp_64,inner_fold,5,52,0.0151344201567627,65,False
+630000,Residual MLP,resmlp_64,pooled_inner,all,278,0.0180523205475764,45,False
+630000,Residual MLP,resmlp_128_reg,inner_fold,1,56,0.0143567898023696,60,False
+630000,Residual MLP,resmlp_128_reg,inner_fold,2,59,0.0157327426019619,5,False
+630000,Residual MLP,resmlp_128_reg,inner_fold,3,56,0.0151074491591307,140,False
+630000,Residual MLP,resmlp_128_reg,inner_fold,4,55,0.0196586345297433,20,False
+630000,Residual MLP,resmlp_128_reg,inner_fold,5,52,0.0136936497906843,100,False
+630000,Residual MLP,resmlp_128_reg,pooled_inner,all,278,0.0158617293826612,60,True
+630000,FT-Transformer,ftt_16,inner_fold,1,56,0.0160410686578069,65,False
+630000,FT-Transformer,ftt_16,inner_fold,2,59,0.0164528234659189,60,False
+630000,FT-Transformer,ftt_16,inner_fold,3,56,0.0160966532679236,110,False
+630000,FT-Transformer,ftt_16,inner_fold,4,55,0.0240324265883985,15,False
+630000,FT-Transformer,ftt_16,inner_fold,5,52,0.0202881018954799,45,False
+630000,FT-Transformer,ftt_16,pooled_inner,all,278,0.0187918383063861,60,True
+630000,FT-Transformer,ftt_24_reg,inner_fold,1,56,0.0237607356991087,25,False
+630000,FT-Transformer,ftt_24_reg,inner_fold,2,59,0.0145607834775779,80,False
+630000,FT-Transformer,ftt_24_reg,inner_fold,3,56,0.019470074533848,110,False
+630000,FT-Transformer,ftt_24_reg,inner_fold,4,55,0.0285431751793984,40,False
+630000,FT-Transformer,ftt_24_reg,inner_fold,5,52,0.0187846050863039,50,False
+630000,FT-Transformer,ftt_24_reg,pooled_inner,all,278,0.0213130786561763,50,False
+640000,Residual MLP,resmlp_64,inner_fold,1,52,0.026659351597854,20,False
+640000,Residual MLP,resmlp_64,inner_fold,2,59,0.0159932438046597,10,False
+640000,Residual MLP,resmlp_64,inner_fold,3,56,0.0164154523949049,45,False
+640000,Residual MLP,resmlp_64,inner_fold,4,56,0.0151874627409688,55,False
+640000,Residual MLP,resmlp_64,inner_fold,5,52,0.0142770753405775,15,False
+640000,Residual MLP,resmlp_64,pooled_inner,all,275,0.0176096304667613,20,True
+640000,Residual MLP,resmlp_128_reg,inner_fold,1,52,0.0263176297560192,30,False
+640000,Residual MLP,resmlp_128_reg,inner_fold,2,59,0.0174374065297281,5,False
+640000,Residual MLP,resmlp_128_reg,inner_fold,3,56,0.0170444673815416,70,False
+640000,Residual MLP,resmlp_128_reg,inner_fold,4,56,0.0148131810832462,20,False
+640000,Residual MLP,resmlp_128_reg,inner_fold,5,52,0.0188317713837396,5,False
+640000,Residual MLP,resmlp_128_reg,pooled_inner,all,275,0.0187321331444084,20,False
+640000,FT-Transformer,ftt_16,inner_fold,1,52,0.0332341338997795,20,False
+640000,FT-Transformer,ftt_16,inner_fold,2,59,0.0176065469890671,85,False
+640000,FT-Transformer,ftt_16,inner_fold,3,56,0.0183308506445359,130,False
+640000,FT-Transformer,ftt_16,inner_fold,4,56,0.0159499214305764,40,False
+640000,FT-Transformer,ftt_16,inner_fold,5,52,0.017744544168143,80,False
+640000,FT-Transformer,ftt_16,pooled_inner,all,275,0.0203953810419648,80,True
+640000,FT-Transformer,ftt_24_reg,inner_fold,1,52,0.0353715988068353,70,False
+640000,FT-Transformer,ftt_24_reg,inner_fold,2,59,0.0162557113686827,90,False
+640000,FT-Transformer,ftt_24_reg,inner_fold,3,56,0.0199660599437246,90,False
+640000,FT-Transformer,ftt_24_reg,inner_fold,4,56,0.019525501742701,60,False
+640000,FT-Transformer,ftt_24_reg,inner_fold,5,52,0.01821602698837,70,False
+640000,FT-Transformer,ftt_24_reg,pooled_inner,all,275,0.0217769229228565,70,False
+650000,Residual MLP,resmlp_64,inner_fold,1,56,0.0154524647164344,75,False
+650000,Residual MLP,resmlp_64,inner_fold,2,59,0.0154205112987279,10,False
+650000,Residual MLP,resmlp_64,inner_fold,3,56,0.0168798922653759,135,False
+650000,Residual MLP,resmlp_64,inner_fold,4,56,0.0153352877221582,45,False
+650000,Residual MLP,resmlp_64,inner_fold,5,52,0.0150243382913726,20,False
+650000,Residual MLP,resmlp_64,pooled_inner,all,279,0.0156114522766347,45,True
+650000,Residual MLP,resmlp_128_reg,inner_fold,1,56,0.0168405569361505,50,False
+650000,Residual MLP,resmlp_128_reg,inner_fold,2,59,0.015281096656228,20,False
+650000,Residual MLP,resmlp_128_reg,inner_fold,3,56,0.0169390161021454,50,False
+650000,Residual MLP,resmlp_128_reg,inner_fold,4,56,0.0163633516873374,15,False
+650000,Residual MLP,resmlp_128_reg,inner_fold,5,52,0.0156361695872034,10,False
+650000,Residual MLP,resmlp_128_reg,pooled_inner,all,279,0.0162178579435639,20,False
+650000,FT-Transformer,ftt_16,inner_fold,1,56,0.0162685025157247,90,False
+650000,FT-Transformer,ftt_16,inner_fold,2,59,0.0152595022390494,70,False
+650000,FT-Transformer,ftt_16,inner_fold,3,56,0.0196215497417819,75,False
+650000,FT-Transformer,ftt_16,inner_fold,4,56,0.0124373887543167,55,False
+650000,FT-Transformer,ftt_16,inner_fold,5,52,0.0194840706460816,50,False
+650000,FT-Transformer,ftt_16,pooled_inner,all,279,0.0164535560861188,70,True
+650000,FT-Transformer,ftt_24_reg,inner_fold,1,56,0.0153700210153488,110,False
+650000,FT-Transformer,ftt_24_reg,inner_fold,2,59,0.0153100570942509,85,False
+650000,FT-Transformer,ftt_24_reg,inner_fold,3,56,0.0197918534138935,80,False
+650000,FT-Transformer,ftt_24_reg,inner_fold,4,56,0.0183968774714382,40,False
+650000,FT-Transformer,ftt_24_reg,inner_fold,5,52,0.0166560710502806,95,False
+650000,FT-Transformer,ftt_24_reg,pooled_inner,all,279,0.0171546645268268,85,False

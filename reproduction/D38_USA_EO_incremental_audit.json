@@ -1,0 +1,24 @@
+{
+  "analysis_scope": "incremental predictive value; not causal identification",
+  "source": "supplementary_data\\D18_USA_100m_HDI_predictions.csv",
+  "contrasts": {
+    "EO_added_to_population_economy": [
+      "R6",
+      "B_R70"
+    ],
+    "EO_added_to_all_traditional_blocks": [
+      "R_S10",
+      "B_RS74"
+    ]
+  },
+  "outer_group": "US state or District of Columbia",
+  "bootstrap_replicates": 20000,
+  "seed": 20260928,
+  "conditions": [
+    "same 3,104 counties",
+    "same archived 100-m out-of-fold prediction design",
+    "fixed direct input sets",
+    "paired county errors with state-cluster resampling",
+    "inference conditions on archived predictions and does not refit models"
+  ]
+}

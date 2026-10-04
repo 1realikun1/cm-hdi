@@ -1,0 +1,20 @@
+{
+  "scope": "Recovery of existing outer predictions; no new fits; all D07 metrics verified",
+  "sources": [
+    {
+      "country": "China",
+      "path": "source://direct_five_model_city_predictions.csv",
+      "sha256": "44f0fdabea551204f12967a8c75ce542a59f5c63a04d7c528415825bbe0c7f30"
+    },
+    {
+      "country": "Indonesia",
+      "path": "source://label_connected_hdi_evaluation.csv",
+      "sha256": "c66399911e03fd32c5f6fed1efdcfd1c993493a5da6f1f08d5a4fc3e7ba197fe"
+    }
+  ],
+  "rows": 3415,
+  "units": {
+    "China": 240,
+    "Indonesia": 443
+  }
+}
