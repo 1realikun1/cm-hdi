@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "rule": "Windows absolute paths replaced by portable source labels",
+  "changed_file_count": 13,
+  "changed_files": [
+    "reproduction/D101_native10_overview320_summary.json",
+    "reproduction/D105_China_component_importance_audit.json",
+    "reproduction/D28_USA_label_audit.json",
+    "reproduction/D40_recovery_provenance.json",
+    "reproduction/D71_computational_cost_protocol.json",
+    "reproduction/D92_revision_sensitivity_protocols.json",
+    "reproduction/D99_EO_spatial_resolution_protocol.json",
+    "reproduction/eo_spatial_resolution_code/input_snapshots/China_configuration.json",
+    "reproduction/eo_spatial_resolution_code/input_snapshots/Indonesia_configuration.json",
+    "reproduction/eo_spatial_resolution_code/input_snapshots/USA_configuration.json",
+    "reproduction/revision_code/input_snapshots/China_configuration.json",
+    "reproduction/revision_code/input_snapshots/Indonesia_configuration.json",
+    "reproduction/revision_code/input_snapshots/USA_configuration.json"
+  ]
+}
